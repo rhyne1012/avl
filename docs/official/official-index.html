@@ -1,0 +1,345 @@
+<TITLE>AVL</TITLE>
+
+<H1><IMG SRC="avl_logo.gif"></H1>
+
+<H3> AVL Overview </H3>
+
+<H4> Summary Description </H4>
+
+AVL is a program for the aerodynamic and flight-dynamic analysis of rigid aircraft <BR>
+of arbitrary configuration.  It employs an extended vortex lattice model for <BR>
+the lifting surfaces, together with a slender-body model for fuselages and nacelles. <BR>
+General nonlinear flight states can be specified.  The flight dynamic analysis <BR>
+combines a full linearization of the aerodynamic model about any flight state, <BR>
+together with specified mass properties.
+
+<H4> Extended Vortex-Lattice Model </H4>
+<UL>
+<LI> Aerodynamic Components
+   <UL>
+   <LI> Lifting surfaces
+   <LI> Slender bodies
+   </UL>
+
+<LI> Configuration definition
+   <UL>
+   <LI> Keyword-driven geometry input file
+   <LI> Defined sections with linear interpolation
+   <LI> Section properties
+     <UL>
+     <LI> camberline is NACA xxxx, or from airfoil file
+     <LI> control deflections
+     <LI> parabolic profile drag polar, Re-scaling
+     </UL>
+   <LI> Scaling, translation, rotation of entire surface or body
+   <LI> Duplication of entire surface or body
+   </UL>
+
+<LI> Singularities
+   <UL>
+   <LI> Horseshoe vortices   (surfaces)
+   <LI> Source+doublet lines (bodies)
+   <LI> Finite-core option
+   </UL>
+
+<LI> Discretization
+   <UL>
+   <LI> Uniform
+   <LI> Sine
+   <LI> Cosine
+   <LI> Blend
+   </UL>
+
+<LI> Control deflections
+   <UL>
+   <LI> Via normal-vector tilting
+   <LI> Leading edge or trailing edge flaps
+   <LI> Flaps independent of discretization
+   </UL>
+
+<LI> General freestream description
+   <UL>
+   <LI> alpha,beta  flow angles
+   <LI> p,q,r  aircraft rotation components
+   <LI> Subsonic Prandtl-Glauert compressibility treatment
+   </UL>
+
+<LI> Aerodynamic outputs
+   <UL>
+   <LI> Aerodynamic forces and moments, in body or stability axes
+   <LI> Trefftz-plane induced drag analysis
+   <LI> Force and moment derivatives w.r.t. angles, rotations, controls
+   </UL>
+</UL>
+
+<H4> Trim Calculation </H4> 
+<UL>
+<LI> Operating variables
+   <UL>
+   <LI>   alpha,beta
+   <LI>   p,q,r
+   <LI>   control deflections
+   </UL>
+<LI> Constraints
+   <UL>
+   <LI>   direct constraints on variables
+   <LI>   indirect constraints via specified CL, moments
+   </UL>
+<LI> Multiple trim run cases can be defined, saved, recalled
+</UL>
+
+<H4> Mass Properties </H4>
+<UL>
+<LI> Optional mass definition file (for trim setup, eigenmode analysis)
+   <UL>
+   <LI> User-chosen units
+   <LI> Itemized component location, mass, inertias
+   </UL>
+
+<LI> Trim setup of constraints
+   <UL>
+   <LI> level or banked  horizontal flight
+   <LI> steady pitch rate (looping) flight
+   </UL>
+</UL>
+
+<H4> Eigenmode analysis</H4>
+<UL>
+   <LI> Predicts flight stability characteristics
+   <LI> Rigid-body, quasi-steady aero model
+   <LI> Eigenvalue root progression with a parameter
+   <LI> Display of eigenmode motion in real time
+   <LI> Output of dynamic system matrices
+   </UL>
+</UL>
+
+<P><IMG SRC="Images/rainbowline.gif" ALT="----------------" WIDTH="576"
+HEIGHT="5" NATURALSIZEFLAG="3" ALIGN="BOTTOM"></P>
+
+<H3>Release Conditions</H3>
+<UL>
+<LI> AVL is released under the 
+<A href="../gpl.txt">GNU General Public License</A>.  
+<LI>By downloading the software you agree to abide by the GPL conditions. 
+</UL>
+The most important conditions are:
+<UL>
+<LI> You may copy, modify and redistribute AVL or its modifications freely.
+<LI> Any such redistributions must be done under the terms of the GPL,
+ else the permission is withdrawn.
+</UL>
+
+
+<P><IMG SRC="Images/rainbowline.gif" ALT="----------------" WIDTH="576"
+HEIGHT="5" NATURALSIZEFLAG="3" ALIGN="BOTTOM"></P>
+
+<P><IMG SRC="Images/rainbowline.gif" ALT="----------------" WIDTH="576"
+HEIGHT="5" NATURALSIZEFLAG="3" ALIGN="BOTTOM"></P>
+
+<H3>Software</H3>
+<H4>Latest Versions</H4>
+<UL>
+<LI><A href="avl3.52.tgz">avl3.52.tgz</A> (1.77MB)
+<BR>AVL 3.52 for Unix and Win32. Gzipped directory tar image.
+<BR>All source code, User Guide, sample AVL session inputs.
+<BR>Requires Fortran, C compilers, windowing support.
+<LI><A href="avl352.exe">avl352.exe</A> (1.79MB) <BR> AVL 3.52 executable for Windows
+<LI><A href="avl3.40b.tgz">avl3.40b.tgz</A> (606752 bytes) 
+<BR>AVL 3.40b for Unix and Win32. Gzipped directory tar image. 
+<BR>All source code, User Guide, sample AVL session inputs. 
+<BR>Requires Fortran, C compilers, windowing support.
+<LI><A href="avl3.40_execs/DARWIN64/avl">avl</A> (1853240 bytes) <BR>AVL 3.40b executable for Intel x86_64.  Requires xQuartz for graphics.
+<LI><A href="avl3.40_execs/DARWINM1/avl">avl</A> (1685504 bytes) <BR>AVL 3.40b executable for ARM MacOS.  Requires xQuartz for graphics.
+<LI><A href="avl3.40_execs/LINUX64/avl">avl</A> (1054104 bytes) <BR>AVL 3.40b executable for Linux 64. Requires libX11 libraries for graphics.
+<LI><A href="avl3.40_execs/WIN64/avl.exe">avl.exe</A> (1674868 bytes) <BR>AVL 3.40b executable for Windows.
+<LI><A href="avl3.36.tgz">avl3.36.tgz</A> (606752 bytes)
+<LI><A href="avl3.36.exe.zip">avl3.36.exe.zip</A> (509063 bytes) <BR>AVL 3.36 executable for Windows.
+<LI><A href="avl3.35.tgz">avl3.35.tgz</A> (1041053 bytes) 
+<LI><A href="avl335.zip">avl335.zip</A> (505104 bytes) <BR>AVL 3.35 executable for Windows.
+<LI><A href="avl335_MacOSX.zip">avl335_MacOSX.zip</A> (95232 bytes) <BR>AVL 3.35
+executable for Mac OSX.  Requires Quartz library to be present on system.
+<LI><A href="avl3.32.tgz">avl3.32.tgz</A> (496506 bytes) 
+<LI><A href="avl332.zip">avl332.zip</A> (678020 bytes) <BR>AVL 3.32
+executable for Windows.
+<LI><A href="AVL3.27_MacOSX_10_4.zip">AVL3.27_MacOSX_10_4.zip</A> (269506 bytes) <BR>AVL 3.27
+executable for MacOSX.
+</UL>
+
+<H4>Older Versions</H4>
+<UL>
+<LI><A href="avl3.27.tar.gz">avl3.27.tar.gz</A> (453338 bytes) 
+<BR>AVL 3.27 for Unix and Win32. Gzipped directory tar image. 
+<LI><A href="avl327.zip">avl327.zip</A> (319170 bytes) <BR>AVL 3.27
+executable for Windows.
+</UL>
+
+<P><IMG SRC="Images/rainbowline.gif" ALT="----------------" WIDTH="576"
+HEIGHT="5" NATURALSIZEFLAG="3" ALIGN="BOTTOM"></P>
+
+<H3>Documents</H3>
+<UL>
+<LI> <A href="avl_doc.txt">  avl_doc.txt</A>
+<BR>User Guide in plain text
+<LI> <A href="AVL_User_Primer.pdf">  AVL_User_Primer.pdf</A>
+<BR>User Guide in Latex PDF (courtesy of Wendy Yang of Berkeley)
+<LI><A href="session1.txt">  session1.txt</A> 
+<BR>Sample AVL session inputs for aerodynamic analysis.
+<LI><A href="session2.txt">  session2.txt</A> 
+<BR>Sample AVL session inputs for eigenmode analysis.
+<LI><A href="version_notes.txt">version_notes.txt</A> 
+<BR>Summary of changes made for AVL versions. </LI></UL>
+</UL>
+
+<H3>Sample Input Files</H3>
+<UL>
+<LI> <A href="runs/">  runs/ directory</A> (this is also in the tar file)
+<LI> <A href="runs.zip">  runs/ directory zip file</A>
+</UL>
+
+
+<P><IMG SRC="Images/rainbowline.gif" ALT="----------------" WIDTH="576"
+HEIGHT="5" NATURALSIZEFLAG="3" ALIGN="BOTTOM"></P>
+<BR>
+
+<BR>
+<A href="http://accessibility.mit.edu"> Accessibility</A>
+<BR>
+
+<P>
+Authors: 
+<UL>
+<LI> Mark Drela, drela (AT) mit (DOT) edu
+<LI> Harold Youngren, guppy (AT) maine (DOT) rr (DOT) com
+</UL></P>
+
+<P><IMG SRC="Images/rainbowline.gif" ALT="----------------" WIDTH="576"
+HEIGHT="3" NATURALSIZEFLAG="3" ALIGN="BOTTOM"></P>
+
+<H4>Page Revisions</H4>
+<P>
+1 Sept 2004 
+<BR> - Page created.  AVL 3.14
+</P>
+<P>
+2 Sept 2004 
+<BR> - A few links fixed.
+<BR> - Comments added to AVL's Makefile (in new avl3.14.tar.gz)
+</P>
+<P>
+13 Oct 2004 
+<BR> - Fixed compilation problems occurring on some compilers.  AVL 3.15
+<BR> - Windows executable provided (courtesy Hal Youngren).
+</P>
+<P>
+18 Oct 2004 
+<BR> - Fixed bug in handling of runtime-loaded input file.  AVL 3.16
+</P>
+<P>
+28 Aug 2005
+<BR> - Fixed bug in the design-variable implementation.  AVL 3.18
+<BR> - Added CY (sideforce) constraint to the available list.
+</P>
+<P>
+24 Oct 2005
+<BR> - Fixed printing error in stability-axis yaw rate r'b/2V.  AVL 3.20
+</P>
+<P>
+25 Oct 2005
+<BR> - Fixed small error in axis transformations in Cl,Cn moment calculations.  AVL 3.21
+</P>
+<P>
+12 Nov 2005
+<BR> - Fixed and clarified stability derivative output.  
+Added strip cl to surface listing output.  AVL 3.22
+</P>
+<P>
+17 Mar 2006
+<BR> - Added a non-existent airfoil file check and warning.
+Added Pan and Expand hot keys to Keystroke Viewer. AVL 3.24
+</P>
+<P>
+29 Apr 2006
+<BR> - Set default printnames for run-case parameter units.
+<BR> - Added freestream-referenced cl to Trefftz-Plane plot.
+<BR> - Fixed hinge-moment calculation for leading-edge flaps.
+<BR> - AVL 3.26
+</P>
+<P>
+11 Aug 06
+<BR> - Windows executable of AVL 3.26 (courtesy of Doug Greenwell)
+</P>
+<P>
+28 Feb 07 
+<BR>- Modified the GPL summary above.  
+Previously this wasn't a correct GPL interpretation, as discussed
+<A href="http://lwn.net/Articles/61292/"> here </A>.
+</P>
+<P>
+23 May 08
+<BR> - Removed the small influence of CLAF on the zero-lift angle.
+<BR> - Added file output options to listing commands (FT,FN,FS,etc)
+<BR> - Made a bunch of other minor tweaks (see version_notes.txt)
+<BR> - AVL 3.27
+</P>
+<P>
+21 Jul 08
+<BR> - Windows executable of AVL 3.27 (courtesy of Ralph Paul)
+</P>
+<P>
+4 Aug 08
+ <BR> - Reorganized and updated the AVL description above
+</P>
+<P>
+26 Jan 11
+ <BR> - MacOSX executable of AVL 3.27 (courtesy of Emanuele Rizzo)
+</P>
+<P>
+6 Apr 11
+ <BR> - Added runs/ directory links
+ <BR> - AVL 3.31 for Linux.  Lots of new goodies since 3.27.  
+See version_notes.txt and avl_doc.txt
+</P>
+<P>
+16 Dec 12
+<BR> - Fixed post-processing calculation of the strip center of pressure (FS command in OPER).
+It was not correct for sections with significant sweep or dihedral.
+<BR> - AVL 3.32 for Linux.
+<BR> - Windows executable of AVL 3.32 (courtesy of Harold Youngren)
+</P>
+<P>
+10 Feb 14
+<BR> - Added second-order righthand sides to the VL system, proportional
+to both the unit translation+rotation velocities, and to control deflections.
+This improves convergence to the trim condition.  It also gives the correct 
+eigenmode solutions even for large trim control deflections. Only the very 
+slow eigenmodes, especially the phugoid, will be affected by this change.
+A few other minor features were added since 3.32.  See version_notes.txt.
+<BR> - AVL 3.35 for Linux.
+</P>
+<P>
+23 Feb 14
+<BR> - Windows executable for AVL 3.35 (courtesy of Harold Youngren)
+</P>
+<P>
+29 Jan 15
+<BR> - MacOSX executable for AVL 3.35 (courtesy of Harold Youngren)
+</P>
+<P>
+23 Feb 17
+<BR> - Made a few fixes and tweaks.  See version_notes.txt file.
+<BR> - Windows executable for AVL 3.36 (courtesy of Harold Youngren)
+</P>
+<P>
+18 Apr 22
+<BR> - AVL 3.40b , courtesy of Steven Allmaras.
+<BR> - Has wider variety of output options -- see version_notes.txt
+<BR> - Switched to LAPACK matrix solver for faster execution
+</P>
+<P>
+3 Sep 25  
+<BR> - AVL 3.52, courtesy of Harold Yougren.
+<BR> - Some fixes and many new options since 3.40b -- see version_notes.txt
+</P>
+
+
+

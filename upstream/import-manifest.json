@@ -1,0 +1,3424 @@
+{
+  "archive": "avl3.52.tgz",
+  "archive_root": "AVL3.52rel09032025",
+  "imported_files": [
+    {
+      "path": "version_notes.txt",
+      "sha256": "d858448dbf93d3d88e026290273806a14d96766b4e5d8bc2686b153c6553a75a"
+    },
+    {
+      "path": "session1.txt",
+      "sha256": "13a267424c8dd341b134ac12f3acc940a4bebb9d1a91681130a92435bacde4ed"
+    },
+    {
+      "path": "README",
+      "sha256": "6e917e798f5f288ebd9c8b187718f3a766385b85a341322c950a2cbfa490e01e"
+    },
+    {
+      "path": "session2.txt",
+      "sha256": "1bea1c8499f62dc578c6db8ab7019bda879bf176565dbbbbc333a536771f1829"
+    },
+    {
+      "path": "avl_doc-AVL350-04242025.txt",
+      "sha256": "c108cb367a28d1e9d76975a198de0daa5b59e4aa4a155335d084242f4c988d4e"
+    },
+    {
+      "path": ".project",
+      "sha256": "3841783bef64c9c1495e3087bdd4a833a03ff16c79e9bbf5405b66f4c1033e3b"
+    },
+    {
+      "path": ".cproject",
+      "sha256": "beaf30c76b98d89c5bc4b2bc4072a098ef4deb4564457cda853d21a13eab27ce"
+    },
+    {
+      "path": "plotlib/util-ops.f",
+      "sha256": "45778af87355f03a6006efd5fff20d6fa2a98568e642ffa439eeecbdb0e716f7"
+    },
+    {
+      "path": "plotlib/plt_3D.f",
+      "sha256": "a5041f66c2e421fa1386eb52aa74bc6ecf5ccd7f733f4a981bcad9abc1b92aaf"
+    },
+    {
+      "path": "plotlib/plt_font.f",
+      "sha256": "eb644cad0594c070760a551a0dadc2640ab41f4930ca1d96080c1b6f76d26d66"
+    },
+    {
+      "path": "plotlib/SLAN.INC",
+      "sha256": "6a70dddba8fc954c3a4a925c416c4dffd3654de6d5b564e2e0447d6ac4f610b4"
+    },
+    {
+      "path": "plotlib/plt_base.f",
+      "sha256": "c30232f2d1233a3e8ef900cb8f9373d22eac7cfde4af7ff9f7c0be171fd13ce4"
+    },
+    {
+      "path": "plotlib/SYMB.INC",
+      "sha256": "99cec68beddc8d31ee1ab214accf0d9ea240a18c1ade757bc967ac663e00e455"
+    },
+    {
+      "path": "plotlib/Readme.colors",
+      "sha256": "fd162362cf483f326edffe04eab0a809cea686ee2e707d087102b5b37e5cd3f0"
+    },
+    {
+      "path": "plotlib/config.make.mingw",
+      "sha256": "65a20f6f9a71a71d32f7abfbed22b0bcc332bba40edb7ba10e35e1739dbaf024"
+    },
+    {
+      "path": "plotlib/Makefile",
+      "sha256": "1a63d66ced499d79ac0945a32ff5c6e2b7d84dcb42c6fea8945226cdf98c2869"
+    },
+    {
+      "path": "plotlib/Notes-new",
+      "sha256": "5ad25d04db796ced6c5a1add3bfbc1d919a9757e631844ebb4cbb653c2982bde"
+    },
+    {
+      "path": "plotlib/pdf_subs.f",
+      "sha256": "d95b14ddecc96ab1676a01a93f5ac84531c8845f16fe33af15159d6eb6c4560e"
+    },
+    {
+      "path": "plotlib/config.make.mingwDP",
+      "sha256": "1e7b13c7615cda4bef429d2261a9118d8c2d9ddd08755711963fb1a7318d61ca"
+    },
+    {
+      "path": "plotlib/config.make.gfortran",
+      "sha256": "b9efdd0bc47efd9ab2c2f0fecdbb4ac1c06257ffe827eedc893291dc3b8bbc1b"
+    },
+    {
+      "path": "plotlib/config.make.gfortranDP",
+      "sha256": "4b2f1746a329214f425637c500e577a18ad54cdc82de28dfa06d98cc0f71f5d5"
+    },
+    {
+      "path": "plotlib/plt_old.f",
+      "sha256": "06a6c8f41b1dcaa539a1256dec1751b62e6502e7ef801c6cd586440c14956c58"
+    },
+    {
+      "path": "plotlib/plt_util.f",
+      "sha256": "7abcc8d73a9091ba6cad913f1873eafae6a9ecb3cdeb389553a83f7b5de88477"
+    },
+    {
+      "path": "plotlib/config.make.gfortranDP-PDF",
+      "sha256": "104c877dfa7bd75fcf41a580bcca96020be4e8471d2cd092d89bd595d67e3d32"
+    },
+    {
+      "path": "plotlib/config.make.gfortran-PDF",
+      "sha256": "f1967ae22163ce4641bac78c97c8f23d201f457e735bd9a00694ae3f074a4904"
+    },
+    {
+      "path": "plotlib/GPL-library",
+      "sha256": "94b03f1a60a7fd5007149530626a895a6ef5a8b9342abfd56860c5f3956f5d23"
+    },
+    {
+      "path": "plotlib/Readme",
+      "sha256": "ab1d7e6a38921197b5fd49ae1dbf5c85b19d1c004dcc86f9dd51dd455be7767c"
+    },
+    {
+      "path": "plotlib/config.make",
+      "sha256": "b9efdd0bc47efd9ab2c2f0fecdbb4ac1c06257ffe827eedc893291dc3b8bbc1b"
+    },
+    {
+      "path": "plotlib/gw_subs.f",
+      "sha256": "45feceefc49123bbfad03e278916f3ea4213266621907470f7c8c7951da63290"
+    },
+    {
+      "path": "plotlib/ps_subs.f",
+      "sha256": "e8d8f1c76370d12dc4ddd25b755e78e865afdd50e675d9c62d3fc15ba313ba14"
+    },
+    {
+      "path": "plotlib/set_subs.f",
+      "sha256": "ee6e0e244008ce09ad2266f20201fa4b84966d65e1bd4e18527656a345d868a1"
+    },
+    {
+      "path": "plotlib/CHAR.INC",
+      "sha256": "2a546d45c76a2b618a75e6e0c9ed724e383477fcb8031c0d896f975d660fab91"
+    },
+    {
+      "path": "plotlib/config.make.mingw-PDF",
+      "sha256": "13c24497b9867ce5ee25a136fe0eb8f7dadd7d3bfbef2bbf8087b5e678a170ac"
+    },
+    {
+      "path": "plotlib/Doc",
+      "sha256": "c001951ea121a49eb9108a65003652c805d4826bac8cca34386d25c387fa1aae"
+    },
+    {
+      "path": "plotlib/Makefile.all",
+      "sha256": "7de6f82e0d23bb4f1eb9b97fdc7b69ae098883a546d5c07a7c233ae84d9ef5f2"
+    },
+    {
+      "path": "plotlib/config.make.mingwDP-PDF",
+      "sha256": "f7cb55d44edc3a2f35b74a89b9930bdc136325d04fbb086279d0d9e62086b350"
+    },
+    {
+      "path": "plotlib/plt_color.f",
+      "sha256": "7f568617dd013898bc513e30932dee4d64111f1f528b7ec8fcf3490980b5384b"
+    },
+    {
+      "path": "plotlib/masks.inc",
+      "sha256": "eea244d4f263ebe48ef7c72f0c0a0e447130da0c7d360a824998a8835c307614"
+    },
+    {
+      "path": "plotlib/pltlib.inc",
+      "sha256": "92bd2db1c8c5da2802ec438f7af76f5dbb8d2ffac2cc7602b058c1288bdf2b27"
+    },
+    {
+      "path": "plotlib/plt.ftnchek",
+      "sha256": "8a84a185e7c313a0745dee5180b93f673890a5ba9084aa9919e7c4febfcd8667"
+    },
+    {
+      "path": "plotlib/MATH.INC",
+      "sha256": "5c0645febd9ce0f58604b99a2bf2937fda44ff48878131236ad5f24b83f99042"
+    },
+    {
+      "path": "plotlib/version.inc",
+      "sha256": "bd9ce8bfd098468ea78b55c01489133267c740d794d8bef033ad31cf341df821"
+    },
+    {
+      "path": "plotlib/win32/W32winthread.c",
+      "sha256": "881885fcd17042079c80c3eb0d1593c8f6dd852863e110860bc1f4d8a98a07ba"
+    },
+    {
+      "path": "plotlib/win32/Notes-Win32-interface",
+      "sha256": "0ab816c2a1ad1292b96c5dc2dc186be7d12d4c8ac8b5468331504f9b79b0295a"
+    },
+    {
+      "path": "plotlib/win32/rgbtbl.h",
+      "sha256": "e047e920c2df148efc3200cafc0a92aa06ef470773fc7f5e0b961ede67035792"
+    },
+    {
+      "path": "plotlib/win32/W32pthread.c",
+      "sha256": "450aed739e63ebea40b61252c5ee3967e1f3d88912e49b44263772c77cd542fc"
+    },
+    {
+      "path": "plotlib/win32/Xdefs.h",
+      "sha256": "b6bcc4079ade3eadda9e030b7ecd4d1c48cc065b6561ac330baf4c23f131a758"
+    },
+    {
+      "path": "plotlib/win32/save/W32pthread-blockflag05242025.c",
+      "sha256": "22a8f7ee6c7e7ef80626c5a4d09f620d085944c30874785a3d500488ac70b7f2"
+    },
+    {
+      "path": "plotlib/win32/save/W32pthread-mutex05242025.c",
+      "sha256": "450aed739e63ebea40b61252c5ee3967e1f3d88912e49b44263772c77cd542fc"
+    },
+    {
+      "path": "plotlib/win32/save/old/W32win3.c",
+      "sha256": "e8ef58ec6fb2a59a5d2b2ea97e677ceaf31eb02c82daf8098b5f109d6083814d"
+    },
+    {
+      "path": "plotlib/win32/save/old/W32win1.c",
+      "sha256": "881885fcd17042079c80c3eb0d1593c8f6dd852863e110860bc1f4d8a98a07ba"
+    },
+    {
+      "path": "plotlib/win32/save/old/Notes",
+      "sha256": "0e3f888763694ac430ac3db88f2bb468b853057408846714dfe136546db155b6"
+    },
+    {
+      "path": "plotlib/win32/save/old/W32win2.c",
+      "sha256": "db3f5a1391afb25cb8ce348f745a91514ede2d01b233dfef6a96faf7aa7c8769"
+    },
+    {
+      "path": "plotlib/win32/save/old/W32win3-orig.c",
+      "sha256": "601e399f96c91ec7687d17f96211e501cd70ba05708b390a1102a9cdfbfabd79"
+    },
+    {
+      "path": "plotlib/win32/save/old/compile-win.txt",
+      "sha256": "220572a86a1e3dc4d1cd6e41fe3f4180a9cef10eddaf2cb131585e6335592d87"
+    },
+    {
+      "path": "plotlib/win32/save/old/W32win.c",
+      "sha256": "881885fcd17042079c80c3eb0d1593c8f6dd852863e110860bc1f4d8a98a07ba"
+    },
+    {
+      "path": "plotlib/win32/save/old/Makefile_win32",
+      "sha256": "340745185174054f122b190448677a59e05c40e21311d2829fff19414aa0c264"
+    },
+    {
+      "path": "plotlib/win32/make-dev/Readme-win32",
+      "sha256": "53e70ba875fd61dfc61df0f0502c6b487a2918e8ab1bc1b2e58d7e94fca63629"
+    },
+    {
+      "path": "plotlib/win32/make-dev/Makefile.NT-ifort",
+      "sha256": "38e86dd78d94caa5918dedd190b7b91595a3c10a07c465d5e48d081c58aeecbf"
+    },
+    {
+      "path": "plotlib/examples/keyinchk.f",
+      "sha256": "12e5278fdf66f880f22cb3fb73a75d70af5b2e9b18d6184640ade29c491aea49"
+    },
+    {
+      "path": "plotlib/examples/defmap.f",
+      "sha256": "b2ae9e983ef2dc77fb3d209f24f02c6103cb72522b5549411a5e14bd2197ad43"
+    },
+    {
+      "path": "plotlib/examples/symbols.f",
+      "sha256": "7b55cfd55f42612ae555dd6e153fdaa9730543a704e5ac674529ea64764ecb17"
+    },
+    {
+      "path": "plotlib/examples/Readme-examples",
+      "sha256": "fe5c15bd51b1989db05070d2e4f6f87c75572eb0bbd66dd8f3e155e30295b5bb"
+    },
+    {
+      "path": "plotlib/examples/contest.f",
+      "sha256": "93a6c1ce6fefb093657a60e699140bba38536452a0a905ecf4e05a874ef6e29d"
+    },
+    {
+      "path": "plotlib/examples/cmap2.f",
+      "sha256": "b42737de300a8d857b506bd9aa5e9c8a109986b53f7cbf9fa070e2f2371d67fc"
+    },
+    {
+      "path": "plotlib/examples/volts_old.f",
+      "sha256": "cd7d59e1da29fee08abfb26ecd07052f472d7cfcd39d05277b3ad52b50ea31e6"
+    },
+    {
+      "path": "plotlib/examples/Makefile",
+      "sha256": "99bbde1c6e148acf361da0041352e16478661d48cba544c052811038cfd46d23"
+    },
+    {
+      "path": "plotlib/examples/symbolsall.f",
+      "sha256": "6dd2947a6f4715d5490839f848f4231cdb6819da965ba0f4e373bc338a360f99"
+    },
+    {
+      "path": "plotlib/examples/colors.inc",
+      "sha256": "a011701c54e33c8f31606f493c1aa2de56ff109447d3be0bd0037c2235ab09ed"
+    },
+    {
+      "path": "plotlib/examples/squaresdoublebuff.f",
+      "sha256": "c80d628dbe7e48b9b40b08446bc76862a7f73a15480a43b15b07eda7bf5261c0"
+    },
+    {
+      "path": "plotlib/examples/squares.f",
+      "sha256": "9bc377f787968c97d86553efd9977cf7057c52a1a157fab48f4b15ca5779dcbc"
+    },
+    {
+      "path": "plotlib/examples/gridtest.f",
+      "sha256": "a3ac29e4d654dc63ad8beab08f86ea95c527b611dab2245d710f7002607085bb"
+    },
+    {
+      "path": "plotlib/examples/spectrum.f",
+      "sha256": "680ca4f2238c243223577fce501015918d78aafe2179e2ecdb41847e9a1d2585"
+    },
+    {
+      "path": "plotlib/examples/squares2.f",
+      "sha256": "6ee9cc36fb55f1481d30b1316473cc138c463baa18002ce27209ec74cbd7533e"
+    },
+    {
+      "path": "plotlib/examples/volts.f",
+      "sha256": "3d041a2c55f6425b8e802c5d2666f7ba56864b394ab13b18e47a9fdfd0d9a6b1"
+    },
+    {
+      "path": "plotlib/examples/mousexy-orig.f",
+      "sha256": "3650ded86ee7f59d24beb46e69780948f4a0958db0f8a4f96fd46fad96209975"
+    },
+    {
+      "path": "plotlib/examples/masks.inc",
+      "sha256": "853afb13e34974e4de223762f1cbbc705ad921305b894a05c1b9793d0e656dd5"
+    },
+    {
+      "path": "plotlib/examples/mousexy-dbg.f",
+      "sha256": "4b68c46aab92e8ed2a1140e890349cef46434110ab2ec03a2554d743bbdfe2f7"
+    },
+    {
+      "path": "plotlib/examples/zoomtest.f",
+      "sha256": "edb3de3b5461ede7a0ad93e24ac470c4e44de2c65cea69c270f59d1a7f506476"
+    },
+    {
+      "path": "plotlib/examples/mousexy.f",
+      "sha256": "cf38171fcc98ce51ba6b0cb9be0f25dcd17b792662e9e30b86f6d76c5ceffc87"
+    },
+    {
+      "path": "plotlib/examples/cmap3.f",
+      "sha256": "ac908c83b2d639fdcb972dc74482868b807e1130334dda93dd1188c1e63e113e"
+    },
+    {
+      "path": "plotlib/examples/dev-make/Makefile.NT",
+      "sha256": "5f757f48f2eb7827bada9d3cf82cd77cb0a263b3d9040b33eb85f268a21727c0"
+    },
+    {
+      "path": "plotlib/colorstuff/color1.pdf",
+      "sha256": "086813d048e33145b2f97eb697b7c031d1a4b9f20fd5adf749ecdb94590137d9"
+    },
+    {
+      "path": "plotlib/colorstuff/color2b.pdf",
+      "sha256": "f60d24af296a3f37ce4933450cb3a55d1ba84cacd0d9d358170009e8b60ccd85"
+    },
+    {
+      "path": "plotlib/colorstuff/color2a.pdf",
+      "sha256": "7be58bbeea4f239d6a2ea2a7498f391d23451dc0cbc5e3c09180447b2078c40c"
+    },
+    {
+      "path": "plotlib/colorstuff/rgb.c",
+      "sha256": "55402d70ac4630650fc6724d48c5e6a09da523fdbeb0a850edbb39672c52dbb8"
+    },
+    {
+      "path": "plotlib/colorstuff/rgbtbl.h",
+      "sha256": "b2a8b62fb5e6e6f0920eb31b3cb93644a9083625ebe004127365601e2745d0de"
+    },
+    {
+      "path": "plotlib/colorstuff/color1.eps",
+      "sha256": "1d40656b6de218a0e86f0ac898d357bcf542e6ac593edb19118290a46fe03fd0"
+    },
+    {
+      "path": "plotlib/colorstuff/color2a.eps",
+      "sha256": "e111e37076acd95ed8d15823fe29e32c371b0ba77c37059b9fe898e1ac18af9e"
+    },
+    {
+      "path": "plotlib/colorstuff/rgbtest.c",
+      "sha256": "ed1cf90b4cfeaf195e2999eb1146b720dcd8286050430cd02919822b05465f69"
+    },
+    {
+      "path": "plotlib/colorstuff/color2b.eps",
+      "sha256": "3ba15e43494aa9fd379a2f1f507127a634ae389bbcc5de9463cbd2f40136d56f"
+    },
+    {
+      "path": "plotlib/pdf/hpdf-interface.c",
+      "sha256": "004bce1144488b647f257bd5890889b0b44ffc77944f3870ee22dfb7c3010ce3"
+    },
+    {
+      "path": "plotlib/pdf/build-static-lib-mingw64.txt",
+      "sha256": "a984e606b1e003809f63af0250e3a91d4af253b22f709269e86449430b0f8c0e"
+    },
+    {
+      "path": "plotlib/pdf/hpdf-stubs.f",
+      "sha256": "1dfa18b1adff7c9c61e9a68e670435ae15df4ba820fd6033b75fe68122bd2097"
+    },
+    {
+      "path": "plotlib/pdf/test-pdf-stub.f",
+      "sha256": "a047f81ccf2d3bc3240e2d475a5b1ac149d0d56fd1838f4342b43ea2b3d87d57"
+    },
+    {
+      "path": "plotlib/xwin11/Xwin2.c",
+      "sha256": "1a2f52341164f1f9969eed6c128fe7b0e2c1fbb42bf9dedab3c5d49f6f6770c8"
+    },
+    {
+      "path": "plotlib/xwin11/Xwin2_orig.c",
+      "sha256": "a06686582a71bbaec9cf9550ed92001a7f54a1a5b9ed65873fe2c6595748b6a1"
+    },
+    {
+      "path": "plotlib/dev-make/Makefile.mingw",
+      "sha256": "856ba20f4ce3d1ee449b5503f2930a32d7f4091afcd1b0d3cf9f0f4fd1dd76d3"
+    },
+    {
+      "path": "plotlib/dev-make/Makefile.new",
+      "sha256": "c11db1383bae013d3804cbaf5b5ae6ab027138c8997503001f7f392c07ded980"
+    },
+    {
+      "path": "plotlib/dev-make/Makefile.mingwSP",
+      "sha256": "70eb06b0f642522a1ab4ab86ac4ea42f80fbdf40091ce5046a618208d06b06e8"
+    },
+    {
+      "path": "plotlib/dev-make/Makefile.orig",
+      "sha256": "26ac0f9a85685fce2abc5956fd1c09b722aadc70da6a74a46632a7479e0c3652"
+    },
+    {
+      "path": "plotlib/config-save/config.make.ifort",
+      "sha256": "4ba125fc46919a78387dd9577c9b2db592b758bef22ba9efbdbdbe51a870b505"
+    },
+    {
+      "path": "plotlib/config-save/config.make.ifortQP",
+      "sha256": "1e106de87f234e145554566f482f0124c951e94ac4c0e658e3eb47ff46b48b96"
+    },
+    {
+      "path": "plotlib/config-save/config.make.mingw",
+      "sha256": "3637aaeb93ef87875bb2f4457096b59963892171f16a353886034a5c3748c388"
+    },
+    {
+      "path": "plotlib/config-save/Makefile",
+      "sha256": "d88ac153c89addbfa6f8d9a604f8f020da578488c26798beb16be2a52edbe885"
+    },
+    {
+      "path": "plotlib/config-save/config.make.mingwDP",
+      "sha256": "b72ad098d71161b9f0ce56f13430d8d1f50dbf56cc0c05576f816d9813c743cb"
+    },
+    {
+      "path": "plotlib/config-save/config.make.gfortran",
+      "sha256": "11f94933b70a82fbb688db3d596d8f55cb3aba5ea546b2ea7439ed77a5eb9cbd"
+    },
+    {
+      "path": "plotlib/config-save/config.make.gfortranDP",
+      "sha256": "d568173cec6314e3aa43eda9ee35e519bbcac273f2b9b2aa8e8bb486f5a188a0"
+    },
+    {
+      "path": "plotlib/config-save/config.make.ifortDP",
+      "sha256": "1799f5a98a3162e3418f0cf5d7d02eb74d9dcdcd2bfa60169cd95a33fc837bcf"
+    },
+    {
+      "path": "plotlib/config-save/README",
+      "sha256": "bd0800df16231286661f9af6f137ec7bcec50d3ddc4aa762c9476da19d8c0cce"
+    },
+    {
+      "path": "plotlib/config-save/Makefile.all",
+      "sha256": "9ae9144ae5a3fe3546b47e1aa42d3f51c6835a626e4507a26bf88ff4683cb8bd"
+    },
+    {
+      "path": "plotlib/config-save/Makefilex",
+      "sha256": "e18ae3a589b2079652276d628b72f1069bf863cf1273920d6c5525c74db85260"
+    },
+    {
+      "path": "plotlib/misc/Makefile.linux.shared",
+      "sha256": "7a0e9a03e2787cb2a1413bc7d2cf720d15c6cb4304b1fe84adaf237923f7ec39"
+    },
+    {
+      "path": "plotlib/misc/Readme.absoft",
+      "sha256": "6c51558b3cb45ee885f7773c883b31f7630716b8817bb80d3bb3a1b0e4f43aea"
+    },
+    {
+      "path": "plotlib/misc/README",
+      "sha256": "1ecfab7fd38398651a9479d06c13dd7b037b646400b5efd17f5e2423bdca2604"
+    },
+    {
+      "path": "plotlib/misc/makesplitlib",
+      "sha256": "e418b8665fe44aba114de60c775f1055aaba210439a921e48c2a22012ff1c1b2"
+    },
+    {
+      "path": "plotlib/sym/Makefile",
+      "sha256": "659cc9156c2dfff91ea8c1363f24f6019b13219e6210caacb138cba3509661d2"
+    },
+    {
+      "path": "plotlib/sym/test.f",
+      "sha256": "fd99186515d71e8ae7aa862191bf841230224a4520daca13db41001349bb70c3"
+    },
+    {
+      "path": "plotlib/sym/symb.fnt",
+      "sha256": "3e52c6eb41d25438b51fa888b16a82236fdf98536ca2cd5ed3c04b17719daa0a"
+    },
+    {
+      "path": "plotlib/sym/slan.fnt",
+      "sha256": "179fafe48a3ac8769d5541c624c5bcfec01711edd304cc9b55ab889cd62ee7fb"
+    },
+    {
+      "path": "plotlib/sym/Readme",
+      "sha256": "e09061c95b06f0998457ed66fb847e869db0fe644917fec735817d8e63ecbf64"
+    },
+    {
+      "path": "plotlib/sym/math.fnt",
+      "sha256": "e54a6885961e5d81af1d5f99337f841b2daa1d002ccca8792c8bea44b20e0aa1"
+    },
+    {
+      "path": "plotlib/sym/symgen.f",
+      "sha256": "64caf6c391c030e8123ca993d21a91eebc565611de7ada0bedabcddc1efcdeaf"
+    },
+    {
+      "path": "plotlib/sym/char.fnt",
+      "sha256": "e5bcfb75ba0a64b8474121a30d59696636ca3e70a8cb8658ed3e4da6efe9b31e"
+    },
+    {
+      "path": "src/aero.f",
+      "sha256": "11b732770f883cc5e51482cd40528d3283ac44eb50c2cd63629bae720b1ff226"
+    },
+    {
+      "path": "src/matrix-lapacksp.f",
+      "sha256": "a6007b27c936363d7782dea3c00ec8f769b4478bde3e8d2316b724fca300fa2e"
+    },
+    {
+      "path": "src/aplotmd.f",
+      "sha256": "edd810b6e4fcd1a25f712ceecdb7ea0dac9fc530139fd7bdc880f89006e150dc"
+    },
+    {
+      "path": "src/autil.f",
+      "sha256": "e88ec69b68a92c4480d13a20d16e53517e51a02fd435d34b44d43294e005865a"
+    },
+    {
+      "path": "src/#aero.f#",
+      "sha256": "11b732770f883cc5e51482cd40528d3283ac44eb50c2cd63629bae720b1ff226"
+    },
+    {
+      "path": "src/matrix-linpack.f",
+      "sha256": "781cd5fcf42276f01647c52402a1a8a4f51bd90c248a2dd2f913e49b534577e2"
+    },
+    {
+      "path": "src/obsetup.f",
+      "sha256": "618705cae4b701fff26086d7343dc541d0255c955d1d91b9daa209ee1ec37474"
+    },
+    {
+      "path": "src/pltops.f",
+      "sha256": "c2ef34b204be3581c9d9ec6e77b10525c5b71e68e3ca8a0e6b1eb5cddffc09e7"
+    },
+    {
+      "path": "src/second_g77.f",
+      "sha256": "56869d6d5b85c6ec967dec488f70315245266eba409d6ff7424edc6bc620239c"
+    },
+    {
+      "path": "src/second_ifc.f",
+      "sha256": "d5a18e587d53dbe039318d67e38eacf901ce30961ee77c8c1a1fafd3020214a8"
+    },
+    {
+      "path": "src/amode.f",
+      "sha256": "f3aecac48f154860e636e3235ab2cc57c80b369b39cbac2b55f8a60b8378ea4b"
+    },
+    {
+      "path": "src/cdcl.f",
+      "sha256": "ce2711def9b2ead1a4782a0a4285fa2a9422ac7a23778334a8e6332048fba133"
+    },
+    {
+      "path": "src/ba_trans.f",
+      "sha256": "1d96c668c1ed80edc7d1519739d7ab64c86ca2d5235acbf4edca8952d03c6e49"
+    },
+    {
+      "path": "src/limits2.f",
+      "sha256": "e54047eb86e957391354d9a7cddc2f87c84bf1ea0a4a31ba76f4d761cdbb68fd"
+    },
+    {
+      "path": "src/limits.f",
+      "sha256": "ee5be7c8c366b134e7b6c91370f21830241fedb936484f9bfde76dbddb049ae0"
+    },
+    {
+      "path": "src/spline.f",
+      "sha256": "5ef039d273e75115b158fcd769ce638744ec37185de1e9663d2238dc758eba2f"
+    },
+    {
+      "path": "src/ADIMEN.INC",
+      "sha256": "ac2dad536bcf70d9f7bfdeb3d0d7bdeea6586ef772c6bea5971be7379497cacc"
+    },
+    {
+      "path": "src/AVLPLT.INC",
+      "sha256": "986c02a734d845176c658f2a9f42f205ce1775802eacf2d5066103a6c67d4234"
+    },
+    {
+      "path": "src/Makefile",
+      "sha256": "0f1def772ef9f94740a62b8552f5083a9267a6d85816175ceacd69131a3a6b68"
+    },
+    {
+      "path": "src/hidden.f",
+      "sha256": "7e2067ec26f7dddcdb4335d1791822cbea005bf712afa272717e888a6f019ee9"
+    },
+    {
+      "path": "src/movie.f",
+      "sha256": "5bd5c43b0001d05bef589a1fbe1ebf33de4185f6f755ffc736594a98e61428cf"
+    },
+    {
+      "path": "src/aoml.f",
+      "sha256": "d30d6c9e3bafde44cbf785a4dbf718185bb15ce94065ccc700797a4397765aae"
+    },
+    {
+      "path": "src/aplotvl.f",
+      "sha256": "83ecf66d2f936505b3d8b6a90109b57fef598c70a35e48b670e9c4bb5ad5cfce"
+    },
+    {
+      "path": "src/matrix.f",
+      "sha256": "8fb855c52b8e650827e1b348ffa0e18420a7af173a90287b410e4daee772b335"
+    },
+    {
+      "path": "src/matrix-lapackdp.f",
+      "sha256": "9e54a239019de9cfd2f6fdb9b119bd8eaaf8e832761460d7fd5653eeb002e259"
+    },
+    {
+      "path": "src/avl.ftnchek",
+      "sha256": "7b34c83b38272a78b833e5cf0b79c9e0a28bb21ab230f9ab826db1977aa98d0c"
+    },
+    {
+      "path": "src/vorvel.f",
+      "sha256": "d47173a6be368e7ecdada2ad9539d28de5fc8eca14a3c2a29572b3b7a1208676"
+    },
+    {
+      "path": "src/#pltops.f#",
+      "sha256": "c2ef34b204be3581c9d9ec6e77b10525c5b71e68e3ca8a0e6b1eb5cddffc09e7"
+    },
+    {
+      "path": "src/aplottp.f",
+      "sha256": "f8ead0c48d2e40bf4003413dbea88a7b5b858eb042503083a0f42029e4268ad6"
+    },
+    {
+      "path": "src/dtest.f",
+      "sha256": "b3797686b5e6bea6606310ab034c92ae779f78a5689fe6490e457be8257a53c5"
+    },
+    {
+      "path": "src/airutil.f",
+      "sha256": "d81ce8cc13ed092f0038eade905bcbf6f436a1690ac44fb3c6e13368fe8e5ed1"
+    },
+    {
+      "path": "src/gpl.txt",
+      "sha256": "727c51841245f089fb933b21d96028d6ec4b039be939968e8abaaf6d0fe75367"
+    },
+    {
+      "path": "src/amass.f",
+      "sha256": "54f4e1d27ce919c26dcf6ade95cae828b076661c36e6518d6192c39eb4e06d3e"
+    },
+    {
+      "path": "src/plutil.f",
+      "sha256": "e9b3a8f7e1024fa6592518205c35f100792afe0c2e546dd3f3a7a017becd4944"
+    },
+    {
+      "path": "src/aoutput.f",
+      "sha256": "7a3255c44f6a7c5db5c1de040a5fa454ed4a23c40d26346bc7a788e98499a9a9"
+    },
+    {
+      "path": "src/userio.f",
+      "sha256": "9ed3f0a93f49e0ac01864589ad2578569746a15e7a6ba97a5d8c3fa95303d93b"
+    },
+    {
+      "path": "src/vorvelc.f",
+      "sha256": "646747bac2b52e2f2ccec4713a98d5bc76ef42ab98827baf870b8849246df2bd"
+    },
+    {
+      "path": "src/avl.f",
+      "sha256": "acbce56d83c28d189ca0338f3e03d5bae138503089cf6f21e5af35b05ba1335a"
+    },
+    {
+      "path": "src/aoutmrf.f",
+      "sha256": "82384d13a4c6ef3a04ec7647a7dcca2be519b449013675adf209f23bf7234003"
+    },
+    {
+      "path": "src/amake.f",
+      "sha256": "e572097d8f65e0bf9cb6134a181d54612c64758b24c31c7095a644b57dc471d7"
+    },
+    {
+      "path": "src/sgutil.f",
+      "sha256": "6203d18f18b4428c48f5a86ad61de4c77bc56d9d72994364d2680cf17f5c9058"
+    },
+    {
+      "path": "src/avl_heap.f90",
+      "sha256": "010bbfb00a6fae198e538e6d520b84bb44243318da15f7f28a4f39fef7833966"
+    },
+    {
+      "path": "src/getvm.f",
+      "sha256": "0b96359c604864a4887d47ce34cdb0688dbed48944db611b39800abf36942561"
+    },
+    {
+      "path": "src/aic.f",
+      "sha256": "ccbb18836d7fda5d1c9558564b881cebee87c9e38e7bf90e8f13ca6d2a0b8228"
+    },
+    {
+      "path": "src/atime.f",
+      "sha256": "e6117e27365e43431d784def548fe3330454265a140722a4adfbffe034e3645e"
+    },
+    {
+      "path": "src/aoutput_bug.f",
+      "sha256": "cddaaa0f48695474f86ccd35b4283b358f3ef4f59c75a73f1e4b7ffddf3716a8"
+    },
+    {
+      "path": "src/unitset.f",
+      "sha256": "e6aef6bab251b730843f33188a9b75ca2329a3bc4c2bd50e9ff5426410b0fc79"
+    },
+    {
+      "path": "src/AINDEX.INC",
+      "sha256": "6283370c4341161d4f974d7d11cc961dd820305c1d5f000f42f472fa877feff7"
+    },
+    {
+      "path": "src/plsubs.f",
+      "sha256": "d07878f8ee8dacfa9987d6b27eda8ae4275cb115571842ca2507d27a6071a03b"
+    },
+    {
+      "path": "src/avl_heap_inc.f90",
+      "sha256": "82d0563aa26c113dcc576ed5d1d8697f9dc5780ac6b72c6b613241e7615e0669"
+    },
+    {
+      "path": "src/AVL.INC",
+      "sha256": "95b675cca17eeba2740435e94a8c7202b09b19bc121f5730cfb9404db5f5962b"
+    },
+    {
+      "path": "src/atrim.f",
+      "sha256": "8476c4231d429cb0259bc6ecf87bd9086cb5050b2ba9c5b5e1a69e9474589f6b"
+    },
+    {
+      "path": "src/MASKS.INC",
+      "sha256": "b5ce0ae28ab0f41f8cf9fde42ff24490f537d5c6bc865c63cd2d30c881f390d9"
+    },
+    {
+      "path": "src/asetup.f",
+      "sha256": "88b7caee259879b034a4043e53a56130c987715e40288013d418e572a364d1bf"
+    },
+    {
+      "path": "src/second.f",
+      "sha256": "56869d6d5b85c6ec967dec488f70315245266eba409d6ff7424edc6bc620239c"
+    },
+    {
+      "path": "src/matrix-lapacksubs.f",
+      "sha256": "3137b3e864c83ad1965ce9988b01611aefa7818f7171c331211520c18fc17564"
+    },
+    {
+      "path": "src/ainput.f",
+      "sha256": "c4408d58c3217be4abfa482c51146be8355ed3220020d6f86e00aba994651bd3"
+    },
+    {
+      "path": "src/aoper.f",
+      "sha256": "cc7fb951d748cbfa7e1e4a737dda283ac6752d301a68c11cdbdc01c39efc68af"
+    },
+    {
+      "path": "src/arrow3d.f",
+      "sha256": "efbc406db10a0bfa64d27ebe6b7f62b4a1c8868f49e791eb6edae88c5a93483c"
+    },
+    {
+      "path": "src/atpforc.f",
+      "sha256": "21153c1a3623177d4bfcbcd799f0bdedade0081a4955b6e1f4e7c649a9dbf65a"
+    },
+    {
+      "path": "runs/b737d.dat",
+      "sha256": "6d8a784632efb5a4575162315a2889503199fb067e43aeb95a068db45a5e71f7"
+    },
+    {
+      "path": "runs/supra.run",
+      "sha256": "f7d4f42d3a539b227a6c4440f03a3d8289f1c6db8226a681189a880890e2be7a"
+    },
+    {
+      "path": "runs/ag38.dat",
+      "sha256": "d3e54c963c0f97fbb94dcaa9f28349dd5933006c688e101fe237c2e7d5fe6182"
+    },
+    {
+      "path": "runs/vanilla2.avl",
+      "sha256": "28f196b3a3bee8573a6212485277e050e7034bfe9583f84c88e9ec4bfa0737ec"
+    },
+    {
+      "path": "runs/hers-gp10.avl",
+      "sha256": "d992dc5273c34b58a95868a758bb1123e539faee1b7cf62ebf28df19985b90aa"
+    },
+    {
+      "path": "runs/sub.dat",
+      "sha256": "ab20e9dfb74450786c595f65d5e636c738e2598b39d6270881e3c263d88a878b"
+    },
+    {
+      "path": "runs/greff.run",
+      "sha256": "1d295edec6d5d473ad95a038df64009eae5da2317b33dd53888bb627b57d4515"
+    },
+    {
+      "path": "runs/ellip2.avl",
+      "sha256": "e090939b0d876425a12c833975cb2c2720f4f5fcd87965c228b6bce703057054"
+    },
+    {
+      "path": "runs/asondnaca.avl",
+      "sha256": "08e63c694f667f4b6a1fea2907affd39f8aab45dc5e1bd9c184726ddfd0152f4"
+    },
+    {
+      "path": "runs/w.avl",
+      "sha256": "3d9baadd82a525448e49a7ec51cfa41f659b519378d3621ed095dc27696679bd"
+    },
+    {
+      "path": "runs/testdes.avl",
+      "sha256": "009cb9e7297f2a5adca5acba62384637aa2c37494815478f79661b90959520a3"
+    },
+    {
+      "path": "runs/asond.avl",
+      "sha256": "b2e3e5f402107df6a67af81faf1bd4747785ef788306e39715542115f7af38cf"
+    },
+    {
+      "path": "runs/b737.avl",
+      "sha256": "6f65fb7ce5db6bdffd56681bbf532bbfb5cd2769ec4b1b10c68256e4f5a54f23"
+    },
+    {
+      "path": "runs/ellipg.avl",
+      "sha256": "377096a57f852783dcc23cd95edab43af4aecce824964449a30e941297c0303a"
+    },
+    {
+      "path": "runs/ag46c.dat",
+      "sha256": "38cb1ce3f55d921c5d7e51ebaddf2fc28695101e505e7036e2ae1c7acc7a4bdf"
+    },
+    {
+      "path": "runs/al.avl",
+      "sha256": "8406d84756feaca993601032bb09d9aac2bc7dbddb5f270019649db57ad68d43"
+    },
+    {
+      "path": "runs/b737b.dat",
+      "sha256": "b667463cb7d278a06edb8f6a2bfd79f14df88f16fbfd593e967a5ec7fcb9797e"
+    },
+    {
+      "path": "runs/bd.avl",
+      "sha256": "25539370e2f338d401018acc674eb52a4170dd36e9489ce7f1d3c939279962f5"
+    },
+    {
+      "path": "runs/d81t.avl",
+      "sha256": "236692ee72e374b03fe0ec5a6e5d70913821b55e0eb32b6e4e0ad62c59814e0a"
+    },
+    {
+      "path": "runs/square.avl",
+      "sha256": "1f5c6a9b768069f7b524473b9b6039bf5a4086c71395be5a17584360537deb61"
+    },
+    {
+      "path": "runs/ag47c.dat",
+      "sha256": "3f7d57c3929824345147d70d41e106bf4500f901d92162d6f2d7acf7a83be3aa"
+    },
+    {
+      "path": "runs/ellip.avl",
+      "sha256": "e62356d640ba72e9cbe92fea8fa52b5b8c6d8f1a95ebb706f4d76ba9e1458927"
+    },
+    {
+      "path": "runs/test.run",
+      "sha256": "03297f5e276de2e907c79287fa23281a148b94d5fac7bd7bbe06fd6d7b93da0f"
+    },
+    {
+      "path": "runs/a1.dat",
+      "sha256": "511d0696e96d2d208c4fa6dade75841f57db194082a82edeb5d1f34798dcfa5c"
+    },
+    {
+      "path": "runs/plane.eig",
+      "sha256": "954c520e1b35c356013f31812941dfda3737777de4442fda49e1417df09578c7"
+    },
+    {
+      "path": "runs/b737c.dat",
+      "sha256": "17d97a7ed496de35c0ed598be8daf36f1212974abbe00a8d79f75460b5c2ede0"
+    },
+    {
+      "path": "runs/b737a.dat",
+      "sha256": "0d132e16c3e540468ec0dc1bcc89ebf24fbf1fd6773e916394e03a02eabec48d"
+    },
+    {
+      "path": "runs/ow.avl",
+      "sha256": "2260c730419e99ec6f4a48db4accf7a5cbf38ca55b6202e8da29586f9c1f53aa"
+    },
+    {
+      "path": "runs/hers.avl",
+      "sha256": "a051d9eb2214fbcad431d378ae59b447e5f0f68a3d3fc6335b2c9acbe822fb3f"
+    },
+    {
+      "path": "runs/supergee.eig",
+      "sha256": "8a77b8acf48aaf897c3782a851e3d2f9a052675ee6dbacd1e96b2b0e02b7a20b"
+    },
+    {
+      "path": "runs/n2412.dat",
+      "sha256": "b405d20ab7ff33c669efff8d14b0a5454c40345431f0bc8693165cc6d8d77bf0"
+    },
+    {
+      "path": "runs/ttest0cam.avl",
+      "sha256": "51203086743db53b63e784e47c78344968066f631394e91b0fa400ad08947c2e"
+    },
+    {
+      "path": "runs/AR5Sweepwing.mat",
+      "sha256": "426d94c8e371b1c330511b5accd96f0afdda9fe3b39af4ffa0f83a0dbdd4cffd"
+    },
+    {
+      "path": "runs/w04.dat",
+      "sha256": "87bcb67e64af8992f09e1d7c622c62bf6c9f8e34d080440f4328a951701e7e7e"
+    },
+    {
+      "path": "runs/w10.dat",
+      "sha256": "66fbc1c3c9d8149818582b348376d6e04bf9290a033492144d3164292e654d53"
+    },
+    {
+      "path": "runs/bd.run",
+      "sha256": "8e83727d760d7aa43b007ee0e0410fbd6283a055fc336ea92250984aa85de28d"
+    },
+    {
+      "path": "runs/square.run",
+      "sha256": "c6a2f828bce56b8e2171092f7d9254c3270606700b3c3e66d4f2ed68dc466b38"
+    },
+    {
+      "path": "runs/test.avl",
+      "sha256": "e426a2afa53247352a34cc0a5c2f9dc704049a8c4cc8fe25a12f6e0209b69c3f"
+    },
+    {
+      "path": "runs/supra0.eig",
+      "sha256": "459f5e033ceb9007a9134a3a0277ca72d98cba7f7d72199ed1ae75dfa5ea4e50"
+    },
+    {
+      "path": "runs/bd2.eig",
+      "sha256": "5c44570e37bc908af1a20fcfae226611ce7f184098448827eff874c241099570"
+    },
+    {
+      "path": "runs/testcdcl-section.avl",
+      "sha256": "05605aa9f3f6ca58dd1ea27d8b28d03514e0ea57099e5b93da3036b4e93b5fe7"
+    },
+    {
+      "path": "runs/allegro.avl",
+      "sha256": "082553d07674265bc771958a916d3c14529afcabde455c3a380c14fae9e9e337"
+    },
+    {
+      "path": "runs/d8f2c.dat",
+      "sha256": "d70db8e9fddc87b6782a9a373f11f8dda737e204ae7bd21064d2b903ac66c3b1"
+    },
+    {
+      "path": "runs/suprad.eig",
+      "sha256": "5ab6630f610548330c8bb55f68ccb24ffac66c237cecbb9563280e53cadd312d"
+    },
+    {
+      "path": "runs/ag41d.dat",
+      "sha256": "8dc7965917aba19cf767e3621b46eaa0444a833ae9b241d3ca1042101db2a3d1"
+    },
+    {
+      "path": "runs/gap.avl",
+      "sha256": "99d2b472aa3f315e090c93aa10546f2a8e15da81c50ffe51cd2ecad472b675de"
+    },
+    {
+      "path": "runs/hers-gp10-plt.pdf",
+      "sha256": "247b52142999da3f3d15da8f78120597b0407dbb556dc9720d9f166891cd7994"
+    },
+    {
+      "path": "runs/h6.avl",
+      "sha256": "6f1f249b15e41bca3f334315576a2d59259676438eb0bf2589b38c04980f5d0f"
+    },
+    {
+      "path": "runs/supra.avl",
+      "sha256": "15094072d68712ddfea29369fafd6dd44e7bc148ce4c46f300dddc22cb1ec72e"
+    },
+    {
+      "path": "runs/supra0.mass",
+      "sha256": "f2593d7d9679d1e6b9527282f64a16a9837ee80a912d44d5548b83a8f2e3ae8e"
+    },
+    {
+      "path": "runs/ag40d.dat",
+      "sha256": "f596ddfb703a40ee8d7a74aaa5cc28102926d97e58aac55b4276b8d3d2da8647"
+    },
+    {
+      "path": "runs/whitcomb.dat",
+      "sha256": "fa8aeb0883c7e87246a27e361a9979c56aefdda72f50f5d19bb341b6de7d8495"
+    },
+    {
+      "path": "runs/greff.avl",
+      "sha256": "a3dc7f59124465292bf0546eac68577c33d90b51c960591df7d10499a019d723"
+    },
+    {
+      "path": "runs/d8f3c.dat",
+      "sha256": "5ddd67752e61fe5e35684cd8ffe6975298ebe26234c2c55d2d7db4b5d75b71f0"
+    },
+    {
+      "path": "runs/h20.avl",
+      "sha256": "7c1fa8b9c90fc157f1fd28602d16ec34741f9f5e10a11b53f743529b9b5f0fd5"
+    },
+    {
+      "path": "runs/w-clcde.txt",
+      "sha256": "97fd2fa8350a91cf67fbfdaa29a537b735fe612e389432962c1940e0150960f1"
+    },
+    {
+      "path": "runs/hershey.avl",
+      "sha256": "622b1d08cc64ba7221b300f12dabec88977d96d7122252a646c6c725972fec18"
+    },
+    {
+      "path": "runs/w.run",
+      "sha256": "249d26de1e77653399d9eca7006c5e558c3553fb86d4d8a880cfb9d5d87f1801"
+    },
+    {
+      "path": "runs/b737.run",
+      "sha256": "cd536f760ab0a8916db71bee2062b3e34ae45ff1b480ad5e9acf92d3987b590d"
+    },
+    {
+      "path": "runs/h0.avl",
+      "sha256": "39126c4dd4364a839c1a865ec3d065753af1f8f04819b1a4504eafae3f8ea072"
+    },
+    {
+      "path": "runs/sample.avl",
+      "sha256": "14beb10a059b60591e3160debda76a85ddfd4ed35518d4da9ec2481e0721fdb9"
+    },
+    {
+      "path": "runs/supergee.run",
+      "sha256": "bb873b992507b546b4f8c4271f82a5c9372450bdfcc6c52491dc62e9f84a04a2"
+    },
+    {
+      "path": "runs/suprad.mass",
+      "sha256": "f2593d7d9679d1e6b9527282f64a16a9837ee80a912d44d5548b83a8f2e3ae8e"
+    },
+    {
+      "path": "runs/bd2.avl",
+      "sha256": "0bc31f6e0a6dd696d05ca780e36df32df6f7cdea5010f2b5c489e0d9162ef303"
+    },
+    {
+      "path": "runs/btest2.avl",
+      "sha256": "e76cadde435e7fab6ff20c35175ed4867ae0463511bcdca0e080987788cd67c8"
+    },
+    {
+      "path": "runs/sd7037.dat",
+      "sha256": "29aa7f654a66adcbfcec0a25b00beeb86df185ad869de632366b68c28ce60d96"
+    },
+    {
+      "path": "runs/suprad.avl",
+      "sha256": "c56f92f53847f781ed8716877cc919401747a40801bcd8e72e98724abf981cd8"
+    },
+    {
+      "path": "runs/supra0.avl",
+      "sha256": "37550cd655434462fda5fe2037f5b9c58fb247d4369d8dc72820f1c6d52e74ed"
+    },
+    {
+      "path": "runs/supraf.avl",
+      "sha256": "fd8d97f39604c2ccd29fa0c28e306a6c81fd906dd2623585bba76f2d7667a056"
+    },
+    {
+      "path": "runs/h05.avl",
+      "sha256": "2e24094b38b26d60b9610e2cdaaadc97835c2cce30aa8cb328cdb0b2f28147b4"
+    },
+    {
+      "path": "runs/b737ab.dat",
+      "sha256": "1d0875ffcf36f2b1078bc0f7f5560d6c03188e04e5741d26bc000b456eeba14f"
+    },
+    {
+      "path": "runs/w04.i",
+      "sha256": "e5bfe4eb38dd871730139a739b7f24f872f094f4854f87f5a589f9737e2011f7"
+    },
+    {
+      "path": "runs/ag43d.dat",
+      "sha256": "9b1fee492e5eaf281bd9e518ab5c6518bb3fd3663609104b4e3510d043eac388"
+    },
+    {
+      "path": "runs/supra-big.avl",
+      "sha256": "afb98cfa6eee4f5b92455f8931a3c14edd710a4c668668529104ffce0e5ed594"
+    },
+    {
+      "path": "runs/hers-zsym05.avl",
+      "sha256": "18505b2a4f1d5b5e7d7fb16ed9d1173d8f92fb3b1356688581ad17eb98a3aac1"
+    },
+    {
+      "path": "runs/d8f0c.dat",
+      "sha256": "6e76ece7200302393ce108ee9d836c27b0421d796368dc2dbd466b6a38e3dda0"
+    },
+    {
+      "path": "runs/plane.run",
+      "sha256": "ee8194155a88bda8524348858ae91c74fce0c50a74ec6d4eb0842d9cfcd85272"
+    },
+    {
+      "path": "runs/plane.mass",
+      "sha256": "1b98a96fad549263538e92f62f148b37ab4a1d164b9ba8cc0df21719dfd5ee94"
+    },
+    {
+      "path": "runs/h10.avl",
+      "sha256": "a56bfa685f2a79e880fff54e78662ad01704d974caac468d066c4e3ea61e4429"
+    },
+    {
+      "path": "runs/supergee.mass",
+      "sha256": "dc64117d837f3cebe0359e059f27ae86a93eb929783023bf506f0f4026a88b15"
+    },
+    {
+      "path": "runs/hershey.eig",
+      "sha256": "16962b87e374b331c4b616eb7614cd5e0d003ba1b98b7f969b4a5c810b708b1d"
+    },
+    {
+      "path": "runs/ttest.avl",
+      "sha256": "64163c8bccab28295c85c45cbe27dcbd685c4a8cc111e37599bbb2870af38f7b"
+    },
+    {
+      "path": "runs/d8f1c.dat",
+      "sha256": "6e76ece7200302393ce108ee9d836c27b0421d796368dc2dbd466b6a38e3dda0"
+    },
+    {
+      "path": "runs/bdc.avl",
+      "sha256": "88783782b9ceba7da662070145613d19e3bb5cb2387946918d75b01885b48317"
+    },
+    {
+      "path": "runs/wing.avl",
+      "sha256": "382f247cea1b253e3f835190c8825645a475dac8cddf77bd60273e97c7306f2e"
+    },
+    {
+      "path": "runs/ag42d.dat",
+      "sha256": "56c9419b5af88250771632407f6d96b54986c1bd9e9a09912b64a4373659c781"
+    },
+    {
+      "path": "runs/circle.avl",
+      "sha256": "d5675395225f7a1e5d256db0908f8fd740b3b70a429410da9b5188f83e535807"
+    },
+    {
+      "path": "runs/plot.ps",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/vanilla.run",
+      "sha256": "d631848ff6f91625fb5bde9d42c8c7654cbe1c98436b4588d02b303130764c6d"
+    },
+    {
+      "path": "runs/h03.avl",
+      "sha256": "d0448d9c98e50b63cb6cc3f92e5468d676786a8ecf4626e16c31d4208aa72cc0"
+    },
+    {
+      "path": "runs/supra.eig",
+      "sha256": "d068ec89e4ebfb475aeef12a7be98ba8a333ea8e3e37a22f228bd3085fd1e044"
+    },
+    {
+      "path": "runs/bd2.mass",
+      "sha256": "6897155192652e05e778e72488d857fb5bbec3f0ade83b62d429da6ad7859339"
+    },
+    {
+      "path": "runs/suprabad.avl",
+      "sha256": "56ef491b38371f6b8dea02b22e98e312418836e05c31564e8ae92d9e7d4134cd"
+    },
+    {
+      "path": "runs/w10.i",
+      "sha256": "d682403278df68c47060150cc62f3d298f30e7b32595fe9ba8562d43e72c2c62"
+    },
+    {
+      "path": "runs/supra.runv",
+      "sha256": "501d6fe3e8fbb0f73dca6788ca391293b6c27fcc019c73575e58fd485cac9c4c"
+    },
+    {
+      "path": "runs/b737.mass",
+      "sha256": "707876edc40474bfd13a4858a1b05a1ae8578bf1dee2fc1b00c711312830e704"
+    },
+    {
+      "path": "runs/ttest.run",
+      "sha256": "03297f5e276de2e907c79287fa23281a148b94d5fac7bd7bbe06fd6d7b93da0f"
+    },
+    {
+      "path": "runs/bdc.run",
+      "sha256": "29f56276f860522b50730528b19313c9d6d7b266c112a7f98be25ea3a3656421"
+    },
+    {
+      "path": "runs/circle.run",
+      "sha256": "c6a2f828bce56b8e2171092f7d9254c3270606700b3c3e66d4f2ed68dc466b38"
+    },
+    {
+      "path": "runs/vanilla.avl",
+      "sha256": "28ccdc714456379de6e3f5f5edacfedf45a915484fb4bac646f335c864d339b2"
+    },
+    {
+      "path": "runs/da04.dat",
+      "sha256": "71a6fcc269b4457855c4d601e2a0089206a4120fe962c45dda1c86334190ae05"
+    },
+    {
+      "path": "runs/testcdcl_surface.avl",
+      "sha256": "e0eebe4eeb7c4993d3c7fc511170067a38fe89b0e30da70b1899e6b7231108ed"
+    },
+    {
+      "path": "runs/supra.mass",
+      "sha256": "f2593d7d9679d1e6b9527282f64a16a9837ee80a912d44d5548b83a8f2e3ae8e"
+    },
+    {
+      "path": "runs/ht23.dat",
+      "sha256": "9667003ca654c4f4f459f61d9d325c0958a17ece77fdb60cb47aab04a35af6bd"
+    },
+    {
+      "path": "runs/ht22.dat",
+      "sha256": "4ac34e3a67d42d96229778ba9fd0d2f0c0ed046587d6b58b696dbca606d4b622"
+    },
+    {
+      "path": "runs/h.avl",
+      "sha256": "460ea155dc5cf15554b8fdb5741203998bf8a5cec99c1eb0d2d7d9d5c03909e4"
+    },
+    {
+      "path": "runs/bd.mass",
+      "sha256": "6897155192652e05e778e72488d857fb5bbec3f0ade83b62d429da6ad7859339"
+    },
+    {
+      "path": "runs/da05.dat",
+      "sha256": "540363441adcc0c1830347ba7abddaac7f2a00a82e23a8dbbd447c7b884f127f"
+    },
+    {
+      "path": "runs/d81.avl",
+      "sha256": "07658ffcff9911b3c04ca44fca50d24cdce6b527de2621faf49b5be1dea37e98"
+    },
+    {
+      "path": "runs/supergee.avl",
+      "sha256": "bdef25b1f762bb1f2171eb056aa47ee90805e8efcfb6a0b6ebe28d46c896c921"
+    },
+    {
+      "path": "runs/ag37.dat",
+      "sha256": "61af3bfc3bab429231da2a62d3cd61c0689cc49454af35a9add4bd2f2ababafb"
+    },
+    {
+      "path": "runs/da01.dat",
+      "sha256": "b63b29ef8886337569be282d5e2911a89beee699103ffff26c2da365c0d03e28"
+    },
+    {
+      "path": "runs/fuseBD.dat",
+      "sha256": "833afeaed0fd2bf5daf6342801a193fa8dd8a7cc9cdb812e72cd67c7601db61b"
+    },
+    {
+      "path": "runs/bd2.run",
+      "sha256": "29f56276f860522b50730528b19313c9d6d7b266c112a7f98be25ea3a3656421"
+    },
+    {
+      "path": "runs/ag45c.dat",
+      "sha256": "6b306fdc0fd5c7f61720e04e5dca9df617e603f82075d9d876fe0919c5c5b08d"
+    },
+    {
+      "path": "runs/sub.avl",
+      "sha256": "3c5fd739202bb49d01825640fec1e81a7e9fdefaea5ab701d5fdca6772f8a4fa"
+    },
+    {
+      "path": "runs/suprad.run",
+      "sha256": "4b7b8648e50d6ca9301e9e6346e73f55bb5d3f82838e41fcc397806c02fd0e93"
+    },
+    {
+      "path": "runs/da00.dat",
+      "sha256": "5556d0fed933449d61df80233eea200ce38cef87597a808510e8248907721824"
+    },
+    {
+      "path": "runs/ag36.dat",
+      "sha256": "732ad2d0490e9d3e3ca4942ed8ff72e4cfda268be0e147a996d663675a7619bb"
+    },
+    {
+      "path": "runs/allegro.mass",
+      "sha256": "40ad4b95480ce473ccbc3e2cc086b20c1a5823b522d66db65120b41309d1c8ea"
+    },
+    {
+      "path": "runs/supra0.run",
+      "sha256": "4b7b8648e50d6ca9301e9e6346e73f55bb5d3f82838e41fcc397806c02fd0e93"
+    },
+    {
+      "path": "runs/longwing.avl",
+      "sha256": "d55e338be48264cc6915814ef8e4cdbb19f988e9957daa436e35bbc3f5bb34ca"
+    },
+    {
+      "path": "runs/da02.dat",
+      "sha256": "76697367c5f66eee0e33c0083db679f89eebe3fec2d412be5a6ae17eced83167"
+    },
+    {
+      "path": "runs/har.avl",
+      "sha256": "c29decd91fea2e571116230e9086a7fa2425c90decc7c4a62823ee9c965a8d95"
+    },
+    {
+      "path": "runs/bd.eig",
+      "sha256": "e558ea460fd4973adfbb7f99e5e5d9f57a000f7ca1844119fee76641b0e926ad"
+    },
+    {
+      "path": "runs/btest.avl",
+      "sha256": "10967fd69adfec4dc5ef2890b775a0d6b9b6566777b1cb7e18f0f2fa2fbf8abf"
+    },
+    {
+      "path": "runs/hers-zimg05.avl",
+      "sha256": "2647dd7ee9fa3d0d68057f3af020abafb48b4f577dbd7c72fa12b9987e3d3016"
+    },
+    {
+      "path": "runs/bdc.mass",
+      "sha256": "6897155192652e05e778e72488d857fb5bbec3f0ade83b62d429da6ad7859339"
+    },
+    {
+      "path": "runs/fuseSupra.dat",
+      "sha256": "8e58f59de55505896375b82c5bbdfd438944371938f616355dfa307e26ec6856"
+    },
+    {
+      "path": "runs/plane.avl",
+      "sha256": "5855992dbdbab7142709a80d2b00ab5ecb07abe31a02b63b26717150109cb6fc"
+    },
+    {
+      "path": "runs/sweeptest.avl",
+      "sha256": "b35a628e72c6bf695d563689645d367a5f3fdee19bcf24e2d0287464cc8f5e87"
+    },
+    {
+      "path": "runs/da03.dat",
+      "sha256": "68acdc56df1578a5854344a364d2d11c0fa1907c8a6a01ccbed1266956a5346c"
+    },
+    {
+      "path": "runs/ag35.dat",
+      "sha256": "726f56daec9d31771bb3db488eea41980fc91de401d6e38a6326ed5de16e3f9f"
+    },
+    {
+      "path": "mrf/Makefile.gcc",
+      "sha256": "7e38fd9bc443530068ec114c85d1ea5e5149e7d10f57873e471259b7f69d69aa"
+    },
+    {
+      "path": "mrf/src/avlRead_CNC.c",
+      "sha256": "49d558845cc8fdd7f9ea9df970316481299d386713e4fbedf0e7e3bbc501c326"
+    },
+    {
+      "path": "mrf/src/avlRead_DERMATS.h",
+      "sha256": "043055affc384d7c315081e7871a444a88f8394dac4342241f28748d7074089d"
+    },
+    {
+      "path": "mrf/src/read_util.h",
+      "sha256": "e1a70ac99960fcf452ccbafdb1187e45c5465ccd69c671b8d4d9bbbee17d1c17"
+    },
+    {
+      "path": "mrf/src/avlRead_VM.h",
+      "sha256": "173d90e3587b536f4d0289f0e4c41d0b4bfccb381d0bbe5757427720574e4143"
+    },
+    {
+      "path": "mrf/src/avlmrf.h",
+      "sha256": "695b5ec9bb1431dbf144819612f63a0cb58fa32515d0b06c411e15e84794bad9"
+    },
+    {
+      "path": "mrf/src/avlRead_BODY.c",
+      "sha256": "be857ae151f1b832f95f8ab9b3edb7c7259ea3171232d1029d49b76dc4de0f95"
+    },
+    {
+      "path": "mrf/src/avlRead_DERMATM.c",
+      "sha256": "0f2d14a76a3877314ac63cb70139745d57dd02ab0d1461b4de785a2982a889b3"
+    },
+    {
+      "path": "mrf/src/avlRead_TOT.h",
+      "sha256": "0f77a3d31e7274493da9829cba1ca74535f6d664a1f50ac2289c755f3ab21469"
+    },
+    {
+      "path": "mrf/src/avlRead_STRP.c",
+      "sha256": "36f495e0ddb063c4f6eb4699af6b256b0ce2cc4d74fef445dfd16fb7b746c6d5"
+    },
+    {
+      "path": "mrf/src/avlRead_HINGE.h",
+      "sha256": "14ffdd4edec6144aa0e92a02597848a6fd9bd67e498f2ad3a614f1979aeb16b0"
+    },
+    {
+      "path": "mrf/src/avlRead_CPOML.c",
+      "sha256": "dc670c4ee5e0ebe46bfdb83fb2f377262617521c5f74b85479c3735b06ae7ada"
+    },
+    {
+      "path": "mrf/src/avlRead_SURF.c",
+      "sha256": "a212fb5cb81e2d569d1f65bc01cfbebdf6b3491aceaf034747cf842b333d3f80"
+    },
+    {
+      "path": "mrf/src/avlRead_ELE.c",
+      "sha256": "a223aea367d0a949437fd285368657e1041fcda165df3d938a0780668954d97a"
+    },
+    {
+      "path": "mrf/src/avlRead_DERMATB.h",
+      "sha256": "2a54e6b76f63edc5f9cc38adaff6931f6b96b6d3bd88b587fcba55bdb101be58"
+    },
+    {
+      "path": "mrf/src/avlRead_DERMATS.c",
+      "sha256": "30cf06a532047aae00ab2369dc0f77e8d03ed2f16f9a1ef2ce7406c3c15ddbd5"
+    },
+    {
+      "path": "mrf/src/avlRead_CNC.h",
+      "sha256": "061b346dc3fea6838faf31ae5887edb5fd2a05510e5945bd3246fcc8331bfe10"
+    },
+    {
+      "path": "mrf/src/avlRead_DERMATM.h",
+      "sha256": "74f8391f73e162d61a7155d72afb242c201ba6bb4412c5eb8cb1873d38ba790d"
+    },
+    {
+      "path": "mrf/src/avlRead_VM.c",
+      "sha256": "c50ba21b626b75db54626002adc91cd9840a8eeff7b10d1038b1e5df0ae59865"
+    },
+    {
+      "path": "mrf/src/avlRead_BODY.h",
+      "sha256": "be4a8a302f528599cc2d050fd508c60c04e33726d6e72e321b6f42e743215df9"
+    },
+    {
+      "path": "mrf/src/avlRead_CPOML.h",
+      "sha256": "58555379f9b8416b2d6f00c504e641792570ad6ea7f7a400ceb0bbe65170e5bc"
+    },
+    {
+      "path": "mrf/src/avlRead_STRP.h",
+      "sha256": "5070adb7b0a271fa4995b9baa7818c3c080f35ac0cb04bc9241ee964633adba2"
+    },
+    {
+      "path": "mrf/src/avlRead_HINGE.c",
+      "sha256": "fb7b201f0f8a8bf3e67b4d221f8922cbafd2860cb2e10ee26f1c0f293e2d43e2"
+    },
+    {
+      "path": "mrf/src/avlRead_TOT.c",
+      "sha256": "36b65d0b344a5a960ac9bb82982a37169cdb180bee562e22b45913fda4750bd9"
+    },
+    {
+      "path": "mrf/src/avlRead_DERMATB.c",
+      "sha256": "60a3b13d314db3a4599d10527302c0a6edaeddc2c016431daeb263da4a8c3144"
+    },
+    {
+      "path": "mrf/src/avlRead_ELE.h",
+      "sha256": "96b70c3341a259e62b7ffc1e792bad593a9f743af7c35466dd652085de1ce08a"
+    },
+    {
+      "path": "mrf/src/avlRead_SURF.h",
+      "sha256": "05596244300b5124e6a1db106e71ce3ed0e85f9e05abf104a564f4743ec84070"
+    },
+    {
+      "path": "mrf/test/fn-mrf.dat",
+      "sha256": "93a264c273751a5daaf25da10eaf5a404bdfa8eb30e03b183d8195117b49bc2b"
+    },
+    {
+      "path": "mrf/test/cpoml.dat",
+      "sha256": "0f7ecb7230af6f203191b0ef25c702a0131df0d93088387f49e61f23dae94b88"
+    },
+    {
+      "path": "mrf/test/cnc-mrf.dat",
+      "sha256": "bf5683aeded408c6b0b3d2ea2cea2632cedb12ca489bd1f89e52c0e88c23b6dc"
+    },
+    {
+      "path": "mrf/test/fs-mrf.dat",
+      "sha256": "234fb8a722ad9590a1c9510333f3b207e95b425074d21640f1ca175e714cb2f6"
+    },
+    {
+      "path": "mrf/test/avlRead_test.c",
+      "sha256": "a420dc8f8588ffd8db6f19f247d91185357fb2751cdc8096af43823bb0541fb4"
+    },
+    {
+      "path": "mrf/test/hm.dat",
+      "sha256": "b7fcb6a0796dcb2428f9bdf134fa680246fb3468bbd1fc34f3a1b91ab24d270a"
+    },
+    {
+      "path": "mrf/test/fe.dat",
+      "sha256": "c432996398845125a2a43a5a56519e35d3b3784072d60993a6425eb6eabac6e8"
+    },
+    {
+      "path": "mrf/test/fs.dat",
+      "sha256": "3160628ff35bf50f4ce59d0d3b5132fdc159118f158f6b34803b4ff4992a80a6"
+    },
+    {
+      "path": "mrf/test/cnc.dat",
+      "sha256": "52159df6d54bf8dabb5281c4e4041a934218032ad9811b9cd780522d29e9c681"
+    },
+    {
+      "path": "mrf/test/fe-mrf.dat",
+      "sha256": "4f600c0332dd3c98d31c4956a91bc075d831f8a6252eda28f82e3f73bacacb98"
+    },
+    {
+      "path": "mrf/test/sb.dat",
+      "sha256": "4bdcfd63375c8d439c5232261a675964bd6b66398e2cfdac87cc29259a4af13e"
+    },
+    {
+      "path": "mrf/test/ft.dat",
+      "sha256": "63ec0122eb47c8eb06a3ced335d8f2e906e681e5b9b865d5d46c2f51950d87fe"
+    },
+    {
+      "path": "mrf/test/fb.dat",
+      "sha256": "abc6d16013d6e7d3ac8d26ccd0ae5e1b19f996888f37767acf6ee76d6583af80"
+    },
+    {
+      "path": "mrf/test/st.dat",
+      "sha256": "2ba930d56104d6188e7e5a9e7de5ed5fcbd91ed8931d68779686b07e333f4717"
+    },
+    {
+      "path": "mrf/test/sm-mrf.dat",
+      "sha256": "a2765dffc12f92a883bbd7bf61ebc4de91e697adc908742fdb89ba2c066ab455"
+    },
+    {
+      "path": "mrf/test/fn.dat",
+      "sha256": "83e55d36c03ffcf03f6a11ed881c9c74243706c8d455fac5db8887e5d88f2c8a"
+    },
+    {
+      "path": "mrf/test/hm-mrf.dat",
+      "sha256": "a9cc65820fb9c4fd9c897fee6a392ff8c97bda3645d990ca924756315d37befa"
+    },
+    {
+      "path": "mrf/test/st-mrf.dat",
+      "sha256": "6940dfaf846d55f0aad06c580b6b5fe490fcb6b4255edb23ff3856604782f963"
+    },
+    {
+      "path": "mrf/test/sm.dat",
+      "sha256": "c68efc579b2433d3607809657fea912af4f01b65e96ef3843643661f7bb88f36"
+    },
+    {
+      "path": "mrf/test/vm-mrf.dat",
+      "sha256": "98cfa3fd7dbaa09dd7f6fe7a9e18220ede399c870b9237e0a92a0edc417e95b8"
+    },
+    {
+      "path": "mrf/test/avl2-mrf.inp",
+      "sha256": "4f641a29684df060c4beb04c7aced60554d4b7370db3a2d5c46aead4071aef0d"
+    },
+    {
+      "path": "mrf/test/ft-mrf.dat",
+      "sha256": "f8d49e9561f707f3c0138e99e1280c13c642bac19fd76c5c892e6f99c64f2bcf"
+    },
+    {
+      "path": "mrf/test/sb-mrf.dat",
+      "sha256": "9ffb3c36aafb111ba3e3247f26f16dc1a3295270251bb069508a059346c07324"
+    },
+    {
+      "path": "mrf/test/fb-mrf.dat",
+      "sha256": "5508c939eb16ab7f7c471df2eee9dc81c9fc54f631b117fa44310d5558c6eef4"
+    },
+    {
+      "path": ".settings/language.settings.xml",
+      "sha256": "0f4e4d1eb8ae14e1c3660f362a59dcbb75f3be324d4f580909b5fde5183ee9d6"
+    },
+    {
+      "path": "bin/Makefile.gfortranDP-lapack",
+      "sha256": "85519ab797ea2d4f37e54b1b2ade80002663da2171e71047d56261ae358d984d"
+    },
+    {
+      "path": "bin/Makefile_ifort-winDP",
+      "sha256": "5c0587aa333972cea28fd03236170c3d589412e77525b5005f8f996209c6585d"
+    },
+    {
+      "path": "bin/Makefile",
+      "sha256": "0e3107538b6ae3325e2b6bba29e0ea393cba15c978d86851ac70c2b94e2bf281"
+    },
+    {
+      "path": "bin/osx-static-link",
+      "sha256": "303c7d3bd967a666a4d6d4664c62eee19324b467160ec91a668a1a3a91fe61fe"
+    },
+    {
+      "path": "bin/Makefile.gfortranDP",
+      "sha256": "162635d9327cb1466962334e1ad0bcb317d9765bad0f420a8c89a2946ec2a2a1"
+    },
+    {
+      "path": "bin/Makefile.ifortDP-mkl",
+      "sha256": "9c5c2d24e064376c23653cbbad07f4e28970d8b79be5234df7874b5d772b35c1"
+    },
+    {
+      "path": "bin/avl_heap_inc.mod",
+      "sha256": "beccd7349c36155e94e831a5f5a622421418d4f3edb4b39a250a98ad3e8ca11d"
+    },
+    {
+      "path": "bin/Makefile.ifortDP",
+      "sha256": "37b6072187a5eb5d4840d6447091de365fd56122d5e3a2966a38c796d9b92034"
+    },
+    {
+      "path": "bin/Makefile.mingwDP-openblas",
+      "sha256": "a9cff90dc848181be45354b24b3523ddd161c438810a669a65958152a949625b"
+    },
+    {
+      "path": "bin/Makefile.mingwDP",
+      "sha256": "67a14ea6f5083f8d8effb52f64433c55765941ffaa3a8532d1fc0696d273987e"
+    },
+    {
+      "path": "bin/Makefile.gfortranDP-openblas",
+      "sha256": "0e3107538b6ae3325e2b6bba29e0ea393cba15c978d86851ac70c2b94e2bf281"
+    },
+    {
+      "path": "bin/build-AVL/install-libs-lapack-openblas.txt",
+      "sha256": "2f45f2760b20ff645e74c3bc332ebc96b3b813f2f4f2943b5942cae2e39ffda3"
+    },
+    {
+      "path": "bin/build-AVL/compile-win-mkl",
+      "sha256": "01277480652036053de39555908963dcfe5818065479b58e7ec2f4da5a9318cb"
+    },
+    {
+      "path": "bin/build-AVL/link_mkl.txt",
+      "sha256": "9faa7cc3963293ecbefa384ca46c1581afe3d48bd6adbeb2bc31187ca10ef9b6"
+    },
+    {
+      "path": "eispack/Makefile.mingw",
+      "sha256": "7c72f6bb2b817965a67bf59ae3dfe43cdfbbec12ca95de086c5651a545bbc8e5"
+    },
+    {
+      "path": "eispack/Makefile.gfortran",
+      "sha256": "62569c3fd5ed2a17c6c25078d4f69381ec83ee9053a5fb9434e2c028215c071c"
+    },
+    {
+      "path": "eispack/Makefile.ifort",
+      "sha256": "1e0fd6d2d8a09da74a7fa3933733acef5880512ae2e2de9f7da77dc5c47185f9"
+    },
+    {
+      "path": "eispack/Makefile.ifort-win",
+      "sha256": "43a3e27bd9a41166a837788c0ca2903ddca13ad341a53a3aad0ebd2200c4b722"
+    },
+    {
+      "path": "eispack/eispack.f",
+      "sha256": "5cf09c4e513d978d2e5d842b4058809897f9190e2dd2c1069697cc09082951ab"
+    },
+    {
+      "path": "eispack/README.eispack",
+      "sha256": "e47acb971884f8958dcddad1b3fa56e6fd3524227ba2445bfd3bfe4cb810df10"
+    },
+    {
+      "path": "misc/Compiling_AVL_using_MinGW.txt",
+      "sha256": "74ff3409666870a072adc9aaf38c3902f5df6a582b967ba0f548248ed483a34a"
+    },
+    {
+      "path": "misc/Body2WindAxes.png",
+      "sha256": "5ec352139d25810c38e32a4f3fb6fce22f50e6304839071272028a0eede2eda4"
+    },
+    {
+      "path": "misc/PlotCDCL/pltcdcl.f",
+      "sha256": "a255ed7bc618449b514353bd06be5730a73341a8524af33b539ff6903efd8daf"
+    },
+    {
+      "path": "misc/PlotCDCL/pltutils.f",
+      "sha256": "b9c28eb63ba8da05a336165c0500cda4c9a5a5c46669300e4db9e64bf365e501"
+    },
+    {
+      "path": "misc/PlotCDCL/plt_util.f",
+      "sha256": "7abcc8d73a9091ba6cad913f1873eafae6a9ecb3cdeb389553a83f7b5de88477"
+    },
+    {
+      "path": "misc/PlotCDCL/plutil.f",
+      "sha256": "247cd7dd9840959b1d7f33dd6cbb071dd2e6eb1b548b297bf12aa9bb29060ff1"
+    },
+    {
+      "path": "misc/PlotCDCL/PLOT.INC",
+      "sha256": "b8ef24dae5639583c9eea2b27475dba542173fbc6ea1321894a70578d0877ff4"
+    },
+    {
+      "path": "misc/PlotCDCL/plotdata.f",
+      "sha256": "d8ba8e5f9485a50e3f60d6c5bf899623de5675070d4241b6566b213a0545bec6"
+    },
+    {
+      "path": "binw32/avl3.51-32.exe",
+      "sha256": "f99c1ab6b934ef54bf3b65e60bd7769d63bd30fdf4a87d51bcc52e9f9c43bd0b"
+    }
+  ],
+  "omitted_extracted_entries": [
+    {
+      "archive_path": "._AVL3.52rel09032025",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._binw32",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._misc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._version_notes.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._eispack",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._bin",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._session1.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._README",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._session2.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._avl_doc-AVL350-04242025.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._.settings",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._.project",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._.cproject",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._mrf",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._runs",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._src",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/._plotlib",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._util-ops.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._sym",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._misc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config-save",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt_3D.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt_font.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._SLAN.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt_base.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._SYMB.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._Readme.colors",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.mingw",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._Makefile",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._Notes-new",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._pdf_subs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.mingwDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._dev-make",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.gfortran",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._xwin11",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.gfortranDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt_old.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._pdf",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt_util.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.gfortranDP-PDF",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.gfortran-PDF",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._GPL-library",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._Readme",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._colorstuff",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._gw_subs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._ps_subs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._set_subs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._examples",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._CHAR.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.mingw-PDF",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._Doc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._Makefile.all",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._config.make.mingwDP-PDF",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt_color.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._masks.inc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._pltlib.inc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._win32",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._plt.ftnchek",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._MATH.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/._version.inc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._make-dev",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._W32winthread.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._Notes-Win32-interface",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._rgbtbl.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._W32pthread.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._Xdefs.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/._save",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/._old",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/._W32pthread-blockflag05242025.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/._W32pthread-mutex05242025.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._W32win3.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._W32win1.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._Notes",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._W32win2.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._W32win3-orig.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._compile-win.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._W32win.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/save/old/._Makefile_win32",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/make-dev/._Readme-win32",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/win32/make-dev/._Makefile.NT-ifort",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._keyinchk.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._defmap.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._symbols.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._Readme-examples",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._contest.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._cmap2.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._volts_old.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._Makefile",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._symbolsall.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._dev-make",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._colors.inc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._squaresdoublebuff.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._squares.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._gridtest.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._spectrum.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._squares2.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._volts.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._mousexy-orig.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._masks.inc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._mousexy-dbg.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._zoomtest.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._mousexy.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/._cmap3.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/examples/dev-make/._Makefile.NT",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._color1.pdf",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._color2b.pdf",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._color2a.pdf",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._rgb.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._rgbtbl.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._color1.eps",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._color2a.eps",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._rgbtest.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/colorstuff/._color2b.eps",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/pdf/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/pdf/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/pdf/._hpdf-interface.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/pdf/._build-static-lib-mingw64.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/pdf/._hpdf-stubs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/pdf/._test-pdf-stub.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/xwin11/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/xwin11/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/xwin11/._Xwin2.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/xwin11/._Xwin2_orig.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/dev-make/._Makefile.mingw",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/dev-make/._Makefile.new",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/dev-make/._Makefile.mingwSP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/dev-make/._Makefile.orig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.ifort",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.ifortQP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.mingw",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._Makefile",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.mingwDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.gfortran",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.gfortranDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._config.make.ifortDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._README",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._Makefile.all",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/config-save/._Makefilex",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/misc/._Makefile.linux.shared",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/misc/._Readme.absoft",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/misc/._README",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/misc/._makesplitlib",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._Makefile",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._test.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._symb.fnt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._slan.fnt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._Readme",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._math.fnt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._symgen.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/plotlib/sym/._char.fnt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aero.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._matrix-lapacksp.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aplotmd.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._autil.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._#aero.f#",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._matrix-linpack.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._obsetup.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._pltops.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._second_g77.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._second_ifc.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._amode.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._cdcl.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._ba_trans.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._limits2.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._limits.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._spline.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._ADIMEN.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._AVLPLT.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._Makefile",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._hidden.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._movie.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aoml.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aplotvl.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._matrix.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._matrix-lapackdp.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._avl.ftnchek",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._vorvel.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._#pltops.f#",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aplottp.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._dtest.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._airutil.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._gpl.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._amass.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._plutil.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aoutput.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._userio.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._vorvelc.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._avl.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aoutmrf.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._amake.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/.#aero.f",
+      "reason": "upstream editor lock symlink; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._sgutil.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._avl_heap.f90",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._getvm.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aic.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._atime.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aoutput_bug.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._unitset.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._AINDEX.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._plsubs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._avl_heap_inc.f90",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._AVL.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._atrim.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._MASKS.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._asetup.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._second.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._matrix-lapacksubs.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._ainput.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._aoper.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._arrow3d.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/src/._atpforc.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737d.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag38.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._vanilla2.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hers-gp10.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._sub.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._greff.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ellip2.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._asondnaca.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._testdes.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._asond.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ellipg.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag46c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._al.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737b.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._d81t.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._square.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag47c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ellip.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._test.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._a1.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._plane.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737a.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ow.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hers.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supergee.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._n2412.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ttest0cam.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._AR5Sweepwing.mat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w04.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w10.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._square.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._test.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra0.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd2.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._testcdcl-section.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._allegro.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._d8f2c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._suprad.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag41d.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._gap.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hers-gp10-plt.pdf",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h6.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra0.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag40d.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._whitcomb.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._greff.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._d8f3c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h20.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w-clcde.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hershey.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h0.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._sample.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supergee.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._suprad.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd2.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._btest2.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._sd7037.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._suprad.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra0.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supraf.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h05.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737ab.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w04.i",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag43d.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra-big.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hers-zsym05.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._d8f0c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._plane.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._plane.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h10.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supergee.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hershey.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ttest.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._d8f1c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bdc.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._wing.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag42d.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._circle.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._plot.ps",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._vanilla.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h03.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd2.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._suprabad.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._w10.i",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra.runv",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._b737.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ttest.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bdc.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._circle.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._vanilla.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._da04.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._testcdcl_surface.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ht23.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ht22.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._h.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._da05.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._d81.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supergee.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag37.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._da01.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._fuseBD.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd2.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag45c.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._sub.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._suprad.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._da00.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag36.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._allegro.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._supra0.run",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._longwing.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._da02.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._har.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bd.eig",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._btest.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._hers-zimg05.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._bdc.mass",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._fuseSupra.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._plane.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._sweeptest.avl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._da03.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/runs/._ag35.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/._obj",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/._test",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/._lib",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/._Makefile.gcc",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/._src",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_CNC.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_DERMATS.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._read_util.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_VM.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlmrf.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_BODY.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_DERMATM.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_TOT.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_STRP.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_HINGE.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_CPOML.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_SURF.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_ELE.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_DERMATB.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_DERMATS.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_CNC.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_DERMATM.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_VM.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_BODY.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_CPOML.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_STRP.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_HINGE.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_TOT.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_DERMATB.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_ELE.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/src/._avlRead_SURF.h",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fn-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._cpoml.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._cnc-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fs-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._avlRead_test.c",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._hm.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fe.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fs.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._cnc.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fe-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._sb.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._ft.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fb.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._st.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._sm-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fn.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._hm-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._st-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._sm.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._vm-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._avl2-mrf.inp",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._ft-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._sb-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/mrf/test/._fb-mrf.dat",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/.settings/._language.settings.xml",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.gfortranDP-lapack",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._build-AVL",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile_ifort-winDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._osx-static-link",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.gfortranDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.ifortDP-mkl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._avl_heap_inc.mod",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.ifortDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.mingwDP-openblas",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.mingwDP",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/._Makefile.gfortranDP-openblas",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/build-AVL/._install-libs-lapack-openblas.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/build-AVL/._compile-win-mkl",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/bin/build-AVL/._link_mkl.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._Makefile.mingw",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._Makefile.gfortran",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._Makefile.ifort",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._Makefile.ifort-win",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._eispack.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/eispack/._README.eispack",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/._Compiling_AVL_using_MinGW.txt",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/._PlotCDCL",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/._Body2WindAxes.png",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._pltcdcl.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._pltutils.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._plt_util.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._plutil.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._PLOT.INC",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/misc/PlotCDCL/._plotdata.f",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/binw32/._.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/binw32/.DS_Store",
+      "reason": "macOS archive metadata; retained in the original archive"
+    },
+    {
+      "archive_path": "AVL3.52rel09032025/binw32/._avl3.51-32.exe",
+      "reason": "macOS archive metadata; retained in the original archive"
+    }
+  ]
+}

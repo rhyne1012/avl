@@ -1,0 +1,79 @@
+{
+  "version": "3.52",
+  "official_release_page_date": "2025-09-03",
+  "backup_date_taipei": "2026-09-21",
+  "build_or_solver_validation_performed": false,
+  "downloads": [
+    {
+      "file": "avl3.52.tgz",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/avl3.52.tgz",
+      "bytes": 1769840,
+      "sha256": "0b588ecea9222f5b625d0af0c87ae31daf3cdba1532cf0bbb36f93d6e854849b",
+      "downloaded_at_utc": "2026-09-20T21:04:59.479541+00:00",
+      "repository_path": "upstream/avl3.52.tgz"
+    },
+    {
+      "file": "avl_doc.txt",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/avl_doc.txt",
+      "bytes": 80860,
+      "sha256": "1f20742e991665a01318f051d367b83ebdc3bfad9c4048ee9cf0778c4148e1c4",
+      "downloaded_at_utc": "2026-09-20T21:04:57.631391+00:00",
+      "repository_path": "docs/official/avl_doc.txt"
+    },
+    {
+      "file": "AVL_User_Primer.pdf",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/AVL_User_Primer.pdf",
+      "bytes": 445276,
+      "sha256": "63a5566c19282991559107ab3fa77e8eb1645b1ed03a4724a8a4d68563b72988",
+      "downloaded_at_utc": "2026-09-20T21:04:58.709294+00:00",
+      "repository_path": "docs/official/AVL_User_Primer.pdf"
+    },
+    {
+      "file": "session1.txt",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/session1.txt",
+      "bytes": 3493,
+      "sha256": "13a267424c8dd341b134ac12f3acc940a4bebb9d1a91681130a92435bacde4ed",
+      "downloaded_at_utc": "2026-09-20T21:04:57.465175+00:00",
+      "repository_path": "docs/official/session1.txt"
+    },
+    {
+      "file": "session2.txt",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/session2.txt",
+      "bytes": 2462,
+      "sha256": "1bea1c8499f62dc578c6db8ab7019bda879bf176565dbbbbc333a536771f1829",
+      "downloaded_at_utc": "2026-09-20T21:04:58.649589+00:00",
+      "repository_path": "docs/official/session2.txt"
+    },
+    {
+      "file": "version_notes.txt",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/version_notes.txt",
+      "bytes": 25522,
+      "sha256": "d858448dbf93d3d88e026290273806a14d96766b4e5d8bc2686b153c6553a75a",
+      "downloaded_at_utc": "2026-09-20T21:04:58.993532+00:00",
+      "repository_path": "docs/official/version_notes.txt"
+    },
+    {
+      "file": "runs.zip",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/runs.zip",
+      "bytes": 82250,
+      "sha256": "5346f54527bd5be2fd40df16970af2da3d7703fd5de8c5c5d01aaf9b9f13bca5",
+      "downloaded_at_utc": "2026-09-20T21:05:00.936238+00:00",
+      "repository_path": "docs/official/runs.zip"
+    },
+    {
+      "file": "gpl.txt",
+      "source_url": "https://web.mit.edu/drela/Public/web/gpl.txt",
+      "bytes": 18011,
+      "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4",
+      "downloaded_at_utc": "2026-09-20T21:05:00.233334+00:00",
+      "repository_path": "LICENSE"
+    },
+    {
+      "file": "official-index.html",
+      "source_url": "https://web.mit.edu/drela/Public/web/avl/",
+      "bytes": 10797,
+      "sha256": "7d3f1dbe1e7c2685d3feca7d4302a475ed4750b8d58892d933e92ff20f4a9f5b",
+      "repository_path": "docs/official/official-index.html"
+    }
+  ]
+}
